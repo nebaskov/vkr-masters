@@ -1,47 +1,588 @@
-% Библиография оформляется согласно ГОСТ 7.32-2017, ГОСТ Р 7.0.100-2018
-% Порядок записей — по порядку первого упоминания в тексте (sorting=none в biblatex)
+% =====================================================================
+% Библиография ВКР: Адаптивная токенизация для языковых моделей ДНК
+% Порядок записей — по порядку первого упоминания в тексте (sorting=none)
+% =====================================================================
 
-% Статья в журнале
-@article{ivanov2019,
-  author  = {Иванов, И. И. and Петров, П. П.},
-  title   = {Ансамблевые методы повышения точности классификации данных},
-  journal = {Журнал машинного обучения},
-  year    = {2019},
-  volume  = {12},
-  number  = {3},
-  pages   = {15--28}
+% ---- Обзорные работы по геномным языковым моделям ----
+
+@misc{benegasGenomicLanguageModels2024,
+  title   = {Genomic {{Language Models}}: {{Opportunities}} and {{Challenges}}},
+  author  = {Benegas, Gonzalo and Ye, Chengzhong and Albors, Carlos and Li, Jianan Canal and Song, Yun S.},
+  year    = 2024,
+  month   = sep,
+  number  = {arXiv:2407.11435},
+  eprint  = {2407.11435},
+  primaryclass = {q-bio},
+  publisher = {arXiv},
+  doi     = {10.48550/arXiv.2407.11435}
 }
 
-% Статья на английском языке
-@article{smith2020,
-  author  = {Smith, J. and Johnson, A.},
-  title   = {Deep Learning Approaches for Data Classification},
-  journal = {Journal of Machine Learning Research},
-  year    = {2020},
-  volume  = {34},
-  number  = {4},
-  pages   = {227--246}
+@article{tokenizationGenomicsReview2025,
+  title   = {Tokenization and Deep Learning Architectures in Genomics: A Comprehensive Review},
+  author  = {Clauwaert, Jim and others},
+  year    = 2025,
+  journal = {Computational and Structural Biotechnology Journal},
+  doi     = {10.1016/j.csbj.2025.07.038}
 }
 
-% Книга / монография
-@book{goodfellow2016,
-  author    = {Goodfellow, I. and Bengio, Y. and Courville, A.},
-  title     = {Deep Learning},
-  publisher = {MIT Press},
-  address   = {Cambridge},
-  year      = {2016}
+% ---- Архитектура Transformer и attention ----
+
+@inproceedings{vaswaniAttentionAllYou2017,
+  title     = {Attention Is {{All}} You {{Need}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  year      = 2017,
+  volume    = {30},
+  publisher = {Curran Associates, Inc.}
 }
 
-% Нормативный документ / ГОСТ
-@misc{gost7322017,
-  title  = {ГОСТ 7.32-2017. Система стандартов по информации, библиотечному и издательскому делу. Отчёт о научно-исследовательской работе. Структура и правила оформления},
-  year   = {2017},
-  note   = {М.: Стандартинформ, 2017. 32 с.}
+% ---- Genomic Language Models ----
+
+@article{jiDNABERTPretrainedBidirectional2021,
+  title   = {{{DNABERT}}: Pre-Trained {{Bidirectional Encoder Representations}} from {{Transformers}} Model for {{DNA-language}} in Genome},
+  author  = {Ji, Yanrong and Zhou, Zhihan and Liu, Han and Davuluri, Ramana V.},
+  year    = 2021,
+  journal = {Bioinformatics},
+  volume  = {37},
+  number  = {15},
+  pages   = {2112--2120},
+  doi     = {10.1093/bioinformatics/btab083}
 }
 
-% Электронный ресурс
-@misc{pytorch2023,
-  title        = {PyTorch Documentation},
-  howpublished = {URL: https://pytorch.org/docs/stable/index.html},
-  note         = {дата обращения: 01.03.2025}
+@article{zhouDNABERT2EfficientFoundation2024,
+  title   = {{{DNABERT-2}}: {{Efficient Foundation Model}} and {{Benchmark}} for {{Multi-Species Genome}}},
+  author  = {Zhou, Zhihan and Ji, Yanrong and Li, Weijian and Dutta, Pratik and Davuluri, Ramana and Liu, Han},
+  year    = 2024,
+  journal = {arXiv preprint arXiv:2306.15006},
+  note    = {arXiv:2306.15006}
+}
+
+@article{nguenHyenaDNALongRangeGenomic2024,
+  title   = {{{HyenaDNA}}: {{Long-Range Genomic Sequence Modeling}} at {{Single Nucleotide Resolution}}},
+  author  = {Nguyen, Eric and Poli, Michael and Faizi, Marjan and Thomas, Armin W. and Birber, Callum and Wornow, Michael and Gu, Albert and Ermon, Stefano and R{\'e}, Christopher and Baccus, Stephen A.},
+  year    = 2024,
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {36}
+}
+
+@misc{schiffCaduceusBiDirectionalEquivariant2024,
+  title   = {Caduceus: {{Bi-Directional Equivariant Long-Range DNA Sequence Modeling}}},
+  author  = {Schiff, Yair and Kao, Chia-Hsiang and Gokaslan, Aaron and Dao, Tri and Gu, Albert and Kuleshov, Volodymyr},
+  year    = 2024,
+  month   = jun,
+  number  = {arXiv:2403.03234},
+  eprint  = {2403.03234},
+  primaryclass = {q-bio},
+  publisher = {arXiv},
+  doi     = {10.48550/arXiv.2403.03234}
+}
+
+@article{dalla-torreNucleotideTransformerBuilding2025,
+  title   = {Nucleotide {{Transformer}}: Building and Evaluating Robust Foundation Models for Human Genomics},
+  author  = {{Dalla-Torre}, Hugo and Gonzalez, Liam and {Mendoza-Revilla}, Javier and Lopez Carranza, Nicolas and others},
+  year    = 2025,
+  journal = {Nature Methods},
+  volume  = {22},
+  number  = {2},
+  pages   = {287--297},
+  doi     = {10.1038/s41592-024-02523-z}
+}
+
+@article{nguyenSequenceModelingDesign2024,
+  title   = {Sequence Modeling and Design from Molecular to Genome Scale with {{Evo}}},
+  author  = {Nguyen, Eric and Poli, Michael and Durrant, Matthew G. and Kang, Brian and others},
+  year    = 2024,
+  journal = {Science},
+  volume  = {386},
+  number  = {6723},
+  pages   = {eado9336},
+  doi     = {10.1126/science.ado9336}
+}
+
+@article{nguyenEvo2GenomeModeling2026,
+  title   = {Genome Modelling and Design across All Domains of Life with {{Evo}} 2},
+  author  = {Nguyen, Eric and Poli, Michael and others},
+  year    = 2026,
+  journal = {Nature},
+  doi     = {10.1038/s41586-026-10176-5}
+}
+
+@article{groverLearnsSequenceContext2024,
+  title   = {{{DNA}} Language Model {{GROVER}} Learns Sequence Context in the Human Genome},
+  author  = {Sanabria, Melissa and Hirsch, Jonas and Jouber, Pierre-Marie and Freir{\'e}, Anna R.},
+  year    = 2024,
+  journal = {Nature Machine Intelligence},
+  volume  = {6},
+  pages   = {911--919},
+  doi     = {10.1038/s42256-024-00872-0}
+}
+
+@misc{maHybriDNAHybridTransformerMamba22025,
+  title   = {{{HybriDNA}}: {{A Hybrid Transformer-Mamba2 Long-Range DNA Language Model}}},
+  author  = {Ma, Mingqian and Liu, Guoqing and Cao, Chuan and Deng, Pan and Dao, Tri and Gu, Albert and others},
+  year    = 2025,
+  month   = feb,
+  number  = {arXiv:2502.10807},
+  eprint  = {2502.10807},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi     = {10.48550/arXiv.2502.10807}
+}
+
+@misc{avsecAlphaGenomeAdvancingRegulatory2025,
+  title   = {{{AlphaGenome}}: Advancing Regulatory Variant Effect Prediction with a Unified {{DNA}} Sequence Model},
+  author  = {Avsec, {\v Z}iga and Latysheva, Natasha and Cheng, Jun and Novati, Guido and others},
+  year    = 2025,
+  publisher = {bioRxiv},
+  doi     = {10.1101/2025.06.25.661532}
+}
+
+% ---- Статические методы токенизации ДНК ----
+
+@article{lindseyImpactTokenizerSelection2025,
+  title   = {The Impact of Tokenizer Selection in Genomic Language Models},
+  author  = {Lindsey, LeAnn M and Pershing, Nicole L and Habib, Anisa and {Dufault-Thompson}, Keith and Stephens, W Zac and Blaschke, Anne J and Jiang, Xiaofang and Sundar, Hari},
+  year    = 2025,
+  journal = {Bioinformatics},
+  volume  = {41},
+  number  = {9},
+  pages   = {btaf456},
+  doi     = {10.1093/bioinformatics/btaf456}
+}
+
+@misc{eapenGenomicTokenizerBiologydriven2025,
+  title   = {Genomic {{Tokenizer}}: {{Toward}} a Biology-Driven Tokenization in Transformer Models for {{DNA}} Sequences},
+  author  = {Eapen, Bell Raj},
+  year    = 2025,
+  publisher = {bioRxiv},
+  doi     = {10.1101/2025.04.02.646836}
+}
+
+% ---- Адаптивная и обучаемая токенизация ДНК ----
+
+@inproceedings{qiaoMxDNAAdaptiveDNA2024,
+  title     = {Model Decides How to Tokenize: Adaptive {{DNA}} Sequence Tokenization with {{MxDNA}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}} ({{NeurIPS}})},
+  author    = {Qiao, Lifeng and others},
+  year      = 2024,
+  volume    = {37}
+}
+
+@misc{dnachunkerLearnableTokenization2026,
+  title   = {{{DNAChunker}}: Learnable Tokenization for {{DNA}} Language Models},
+  author  = {Anonymous authors},
+  year    = 2026,
+  month   = jan,
+  eprint  = {2601.03019},
+  archiveprefix = {arXiv},
+  note    = {arXiv:2601.03019}
+}
+
+@inproceedings{mergeDNAContextAware2026,
+  title     = {{{MergeDNA}}: Context-Aware Genome Modeling with Dynamic Tokenization through Token Merging},
+  booktitle = {Proceedings of the {{AAAI}} Conference on Artificial Intelligence},
+  author    = {Liu, Zicheng and others},
+  year      = 2026,
+  doi       = {10.1609/aaai.v40i1.37032},
+  note      = {AAAI 2026, Oral}
+}
+
+@misc{evoLenEvolutionGuided2026,
+  title   = {{{EvoLen}}: Evolution-Guided Tokenization for {{DNA}} Language Model},
+  author  = {Anonymous authors},
+  year    = 2026,
+  month   = apr,
+  eprint  = {2604.08698},
+  archiveprefix = {arXiv},
+  note    = {arXiv:2604.08698}
+}
+
+@misc{dnaMotifTokenizer2025,
+  title   = {{{DNAMotifTokenizer}}: Towards Biologically Informed Tokenization of Genomic Sequences},
+  author  = {Anonymous authors},
+  year    = 2025,
+  month   = dec,
+  eprint  = {2512.17126},
+  archiveprefix = {arXiv},
+  note    = {arXiv:2512.17126}
+}
+
+@misc{bioTokenBioFM2025,
+  title   = {{{BioToken}} and {{BioFM}} --- Biologically-Informed Tokenization Enables Accurate and Efficient Genomic Foundation Models},
+  author  = {Vishniakov, Kirill and others},
+  year    = 2025,
+  publisher = {bioRxiv},
+  doi     = {10.1101/2025.03.27.645711}
+}
+
+@misc{patchDNA2026,
+  title   = {{{PatchDNA}}: A Flexible and Biologically-Informed Alternative to Tokenization for {{DNA}}},
+  author  = {Anonymous authors},
+  year    = 2026,
+  note    = {ICLR 2026},
+  doi     = {10.1101/2025.11.28.691095}
+}
+
+@misc{guidedTokenization2026,
+  title   = {Guided Tokenization and Domain Knowledge Enhance Genomic Language Models' Performance},
+  author  = {Anonymous authors},
+  year    = 2026,
+  month   = feb,
+  publisher = {bioRxiv},
+  doi     = {10.64898/2026.02.16.706213}
+}
+
+% ---- Адаптивная токенизация в NLP (не-геномные) ----
+
+@misc{yuMegaBytePredictingMillionbyte2023,
+  title   = {{{MEGABYTE}}: Predicting Million-byte Sequences with Multiscale Transformers},
+  author  = {Yu, Lili and Simig, D{\'a}niel and Flaherty, Colin and Aghajanyan, Armen and Zettlemoyer, Luke and Lewis, Mike},
+  year    = 2023,
+  eprint  = {2305.07185},
+  archiveprefix = {arXiv},
+  note    = {arXiv:2305.07185}
+}
+
+@misc{bltByteLatentTransformer2024,
+  title   = {Byte Latent Transformer: Patches Scale Better Than Tokens},
+  author  = {Pagnoni, Artidoro and Ram, Srinivasan and Gupta, Gagan and others},
+  year    = 2024,
+  month   = dec,
+  eprint  = {2412.09871},
+  archiveprefix = {arXiv},
+  note    = {Meta FAIR; arXiv:2412.09871}
+}
+
+@inproceedings{tayCharformerFastCharacter2022,
+  title     = {Charformer: Fast Character Transformers via Gradient-based Subword Tokenization},
+  booktitle = {International Conference on Learning Representations ({{ICLR}})},
+  author    = {Tay, Yi and Tran, Vinh Q. and Ruder, Sebastian and others},
+  year      = 2022
+}
+
+@inproceedings{daiFunnelTransformerFiltering2020,
+  title     = {Funnel-Transformer: Filtering out Sequential Redundancy for Efficient Language Processing},
+  booktitle = {Advances in {{Neural Information Processing Systems}} ({{NeurIPS}})},
+  author    = {Dai, Zihang and Lai, Guokun and Yang, Yiming and Le, Quoc V.},
+  year      = 2020,
+  volume    = {33}
+}
+
+% ---- Бенчмарки геномных моделей ----
+
+@misc{patel2025dartevalcomprehensivednalanguage,
+  title   = {{{DART-eval}}: A Comprehensive {{DNA}} Language Model Evaluation Benchmark on Regulatory {{DNA}}},
+  author  = {Patel, Aman and Singhal, Arpita and Wang, Austin and Pampari, Anusri and Kasowski, Maya and Kundaje, Anshul},
+  year    = 2025,
+  eprint  = {2412.05430},
+  primaryclass = {cs.LG},
+  archiveprefix = {arXiv}
+}
+
+@article{tangBENDBenchmarkDNA2024,
+  title   = {{{BEND}}: {{Benchmarking DNA Language Models}} on Biologically Meaningful Tasks},
+  author  = {Tang, Wuwei and D'Ascoli, St{\'e}phane and Hernandez-Garcia, Alexander and Cuturi, Marco and Mordatch, Igor},
+  year    = 2024,
+  journal = {arXiv preprint arXiv:2311.12570},
+  note    = {arXiv:2311.12570}
+}
+
+@article{gresovaGenomicBenchmarksCollection2023,
+  title   = {Genomic Benchmarks: A Collection of Datasets for Genomic Sequence Classification},
+  author  = {Gre{\v s}ov{\'a}, Katar{\'i}na and Martinek, Vlastimil and {\v C}ech{\'a}k, David and {\v S}ime{\v c}ek, Petr and Alexiou, Panagiotis},
+  year    = 2023,
+  journal = {BMC Genomic Data},
+  volume  = {24},
+  number  = {1},
+  pages   = {25},
+  doi     = {10.1186/s12863-023-01123-8}
+}
+
+@article{weiGenomicBenchmarksDNA2025,
+  title   = {Benchmarking {{DNA}} Foundation Models for Genomic and Genetic Tasks},
+  author  = {Wei, Zichen and Hou, Wanwen and Zhou, Yibing and Chen, Wenhao and Wang, Yuxin and Liu, Qi},
+  year    = 2025,
+  journal = {Nature Communications},
+  volume  = {16},
+  pages   = {876},
+  doi     = {10.1038/s41467-025-65823-8}
+}
+
+@misc{vishniakovGenomicFoundationlessModels2024,
+  title   = {Genomic {{Foundationless Models}}: {{Pretraining Does Not Promise Performance}}},
+  author  = {Vishniakov, Kirill and Viswanathan, Karthik and Medvedev, Aleksandr and others},
+  year    = 2024,
+  publisher = {Genomics},
+  doi     = {10.1101/2024.12.18.628606}
+}
+
+% ---- Биология: регуляция генов, эволюция, геном ----
+
+@article{schoenfelderLongrangeEnhancerPromoter2019,
+  title   = {Long-Range Enhancer--Promoter Contacts in Gene Expression Control},
+  author  = {Schoenfelder, Stefan and Fraser, Peter},
+  year    = 2019,
+  journal = {Nature Reviews Genetics},
+  volume  = {20},
+  number  = {8},
+  pages   = {437--455},
+  doi     = {10.1038/s41576-019-0128-0}
+}
+
+@article{nurgalievT2TCHm13CompleteHuman2022,
+  title   = {The Complete Sequence of a Human Genome},
+  author  = {Nurk, Sergey and Koren, Sergey and Rhie, Arang and Rautiainen, Mikko and others},
+  year    = 2022,
+  journal = {Science},
+  volume  = {376},
+  number  = {6588},
+  pages   = {44--53},
+  doi     = {10.1126/science.abj6987}
+}
+
+@article{rosenbergPatternsTransitionalMutation2003,
+  title   = {Patterns of Transitional Mutation Biases Within and Among Mammalian Genomes},
+  author  = {Rosenberg, Michael S. and Subramanian, Sankar and Kumar, Sudhir},
+  year    = 2003,
+  journal = {Molecular Biology and Evolution},
+  volume  = {20},
+  number  = {6},
+  pages   = {988--993},
+  doi     = {10.1093/molbev/msg113}
+}
+
+@article{bergmanEvolutionGermlineMutation2023,
+  title   = {Evolution of the Germline Mutation Rate across Vertebrates},
+  author  = {Bergeron, Lucie A. and Besenbacher, S{\o}ren and Zheng, Jiao and others},
+  year    = 2023,
+  journal = {Nature},
+  volume  = {615},
+  number  = {7951},
+  pages   = {285--291},
+  doi     = {10.1038/s41586-023-05752-y}
+}
+
+% ---- Диффузионные модели (для ДНК) ----
+
+@inproceedings{hoDenoisingDiffusionProbabilistic2020,
+  title     = {Denoising Diffusion Probabilistic Models},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author    = {Ho, Jonathan and Jain, Ajay and Abbeel, Pieter},
+  year      = 2020,
+  volume    = {33},
+  pages     = {6840--6851},
+  note      = {arXiv:2006.11239}
+}
+
+@inproceedings{austinStructuredDenoisingDiffusion2021,
+  title     = {Structured Denoising Diffusion Models in Discrete State-Spaces},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author    = {Austin, Jacob and Johnson, Daniel D. and Ho, Jonathan and Tarlow, Daniel and van den Berg, Rianne},
+  year      = 2021,
+  volume    = {34},
+  pages     = {17981--17993},
+  note      = {Also known as D3PM}
+}
+
+@misc{li2024discdifflatentdiffusionmodel,
+  title   = {{{DiscDiff}}: {{Latent}} Diffusion Model for {{DNA}} Sequence Generation},
+  author  = {Li, Zehui and Ni, Yuhao and Beardall, William A V and Xia, Guoxuan and Das, Akashaditya and Stan, Guy-Bart and Zhao, Yiren},
+  year    = 2024,
+  eprint  = {2402.06079},
+  archiveprefix = {arXiv}
+}
+
+@inproceedings{pmlr-v202-avdeyev23a,
+  title     = {Dirichlet Diffusion Score Model for Biological Sequence Generation},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  author    = {Avdeyev, Pavel and Shi, Chenlai and Tan, Yuhao and Dudnyk, Kseniia and Zhou, Jian},
+  year      = 2023,
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {202},
+  pages     = {1276--1301},
+  publisher = {PMLR}
+}
+
+@article{Sarkar2024.05.23.595630,
+  title   = {Designing {{DNA}} with Tunable Regulatory Activity Using Discrete Diffusion},
+  author  = {Sarkar, Anirban and Tang, Ziqi and Zhao, Chris and Koo, Peter K},
+  year    = 2024,
+  journal = {bioRxiv},
+  doi     = {10.1101/2024.05.23.595630}
+}
+
+% ---- Инструменты и фреймворки ----
+
+@misc{paszke2019pytorchimperativestylehighperformance,
+  title   = {{{PyTorch}}: An Imperative Style, High-Performance Deep Learning Library},
+  author  = {Paszke, Adam and Gross, Sam and Massa, Francisco and others},
+  year    = 2019,
+  eprint  = {1912.01703},
+  archiveprefix = {arXiv}
+}
+
+@article{Zaharia_Accelerating_the_Machine_2018,
+  title   = {Accelerating the Machine Learning Lifecycle with {{MLflow}}},
+  author  = {Zaharia, Matei A. and Chen, Andrew and others},
+  year    = 2018,
+  journal = {IEEE Data Eng. Bull.},
+  volume  = {41},
+  pages   = {39--45}
+}
+
+% ---- Методы и архитектурные компоненты ----
+
+@misc{suRoFormerEnhancedTransformer2021,
+  title   = {{{RoFormer}}: Enhanced Transformer with Rotary Position Embedding},
+  author  = {Su, Jianlin and Lu, Yu and Pan, Shengfeng and Murtadha, Ahmed and Wen, Bo and Liu, Yunfeng},
+  year    = 2021,
+  eprint  = {2104.09864},
+  archiveprefix = {arXiv}
+}
+
+@inproceedings{loshchilovDecoupledWeightDecay2019,
+  title     = {Decoupled Weight Decay Regularization},
+  booktitle = {International Conference on Learning Representations ({{ICLR}})},
+  author    = {Loshchilov, Ilya and Hutter, Frank},
+  year      = 2019,
+  note      = {arXiv:1711.05101}
+}
+
+@misc{bengioEstimatingPropagatingGradients2013,
+  title   = {Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation},
+  author  = {Bengio, Yoshua and L{\'e}onard, Nicholas and Courville, Aaron},
+  year    = 2013,
+  eprint  = {1308.3432},
+  archiveprefix = {arXiv}
+}
+
+@inproceedings{menschDifferentiableDynamicProgramming2018,
+  title     = {Differentiable Dynamic Programming for Structured Prediction and Attention},
+  booktitle = {Proceedings of the 35th International Conference on Machine Learning ({{ICML}})},
+  author    = {Mensch, Arthur and Blondel, Mathieu},
+  year      = 2018,
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {80},
+  pages     = {3462--3471},
+  publisher = {PMLR}
+}
+
+@misc{hendrycksGaussianErrorLinear2016,
+  title   = {Gaussian Error Linear Units ({{GELUs}})},
+  author  = {Hendrycks, Dan and Gimpel, Kevin},
+  year    = 2016,
+  eprint  = {1606.08415},
+  archiveprefix = {arXiv}
+}
+
+@inproceedings{sennrichNeuralMachineTranslation2016,
+  title     = {Neural Machine Translation of Rare Words with Subword Units},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics ({{ACL}})},
+  author    = {Sennrich, Rico and Haddow, Barry and Birch, Alexandra},
+  year      = 2016,
+  pages     = {1715--1725},
+  doi       = {10.18653/v1/P16-1162}
+}
+
+@misc{guMambaLinearTimeSequence2023,
+  title   = {Mamba: Linear-Time Sequence Modeling with Selective State Spaces},
+  author  = {Gu, Albert and Dao, Tri},
+  year    = 2023,
+  eprint  = {2312.00752},
+  archiveprefix = {arXiv}
+}
+
+@misc{daoTransformersAreSSMs2024,
+  title   = {Transformers Are {{SSMs}}: Generalized Models and Efficient Algorithms Through Structured State Space Duality},
+  author  = {Dao, Tri and Gu, Albert},
+  year    = 2024,
+  eprint  = {2405.21060},
+  archiveprefix = {arXiv},
+  note    = {Mamba-2}
+}
+
+% ---- Биологические базы данных и аннотации ----
+
+@article{siepelEvolutionarilyConservedElements2005,
+  title   = {Evolutionarily Conserved Elements in Vertebrate, Insect, Worm, and Yeast Genomes},
+  author  = {Siepel, Adam and Bejerano, Gill and Pedersen, Jakob S. and Hinrichs, Angie S. and Hou, Minmei and Rosenbloom, Kate and others},
+  year    = 2005,
+  journal = {Genome Research},
+  volume  = {15},
+  number  = {8},
+  pages   = {1034--1050},
+  doi     = {10.1101/gr.3715005}
+}
+
+@article{rauluseviciuteJASPAR2024,
+  title   = {{{JASPAR}} 2024: 20th Anniversary of the Open-Access Database of Transcription Factor Binding Profiles},
+  author  = {Rauluseviciute, Ieva and Riudavets-Puig, Rafael and Blanc-Mathieu, Romain and Castro-Mondragon, Jaime A. and others},
+  year    = 2024,
+  journal = {Nucleic Acids Research},
+  volume  = {52},
+  number  = {D1},
+  pages   = {D174--D182},
+  doi     = {10.1093/nar/gkad804}
+}
+
+@article{frankishGENCODE2019,
+  title   = {{{GENCODE}} Reference Annotation for the Human and Mouse Genomes},
+  author  = {Frankish, Adam and Diekhans, Mark and Ferreira, Ana-Maria and Johnson, Rory and Jungreis, Irwin and Loveland, Jane and others},
+  year    = 2019,
+  journal = {Nucleic Acids Research},
+  volume  = {47},
+  number  = {D1},
+  pages   = {D766--D773},
+  doi     = {10.1093/nar/gky955}
+}
+
+@article{encodeExpandedRegistry2024,
+  title   = {An Expanded Registry of Candidate Cis-Regulatory Elements for Studying Transcriptional Regulation},
+  author  = {{ENCODE Project Consortium}},
+  year    = 2024,
+  journal = {Nature},
+  volume  = {625},
+  pages   = {857--867},
+  doi     = {10.1038/s41586-024-07105-6}
+}
+
+@article{landrumClinVar2018,
+  title   = {{{ClinVar}}: Improving Access to Variant Interpretations and Supporting Evidence},
+  author  = {Landrum, Melissa J. and Lee, Jennifer M. and Riley, George R. and others},
+  year    = 2018,
+  journal = {Nucleic Acids Research},
+  volume  = {46},
+  number  = {D1},
+  pages   = {D1062--D1067},
+  doi     = {10.1093/nar/gkx1153}
+}
+
+@article{dreosEPDnew2015,
+  title   = {The Eukaryotic Promoter Database: Expansion of {{EPDnew}} and New Promoter Analysis Tools},
+  author  = {Dreos, Ren{\'e} and Ambrosini, Giovanna and P{\'e}rier, Rouaida C. and Bucher, Philipp},
+  year    = 2015,
+  journal = {Nucleic Acids Research},
+  volume  = {43},
+  number  = {D1},
+  pages   = {D92--D96},
+  doi     = {10.1093/nar/gku1111}
+}
+
+@article{landerInitialSequencingAnalysis2001,
+  title   = {Initial Sequencing and Analysis of the Human Genome},
+  author  = {Lander, Eric S. and Linton, Lauren M. and Birren, Bruce and others},
+  year    = 2001,
+  journal = {Nature},
+  volume  = {409},
+  number  = {6822},
+  pages   = {860--921},
+  doi     = {10.1038/35057062}
+}
+
+% ---- Белковые языковые модели (контекст) ----
+
+@misc{EvolutionaryscalePredictionAtomiclevel,
+  title        = {Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model},
+  howpublished = {Science, 2023},
+  doi          = {10.1126/science.ade2574}
 }

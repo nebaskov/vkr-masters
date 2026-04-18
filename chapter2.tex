@@ -1,0 +1,295 @@
+\chapter{ОПИСАНИЕ ПРЕДЛАГАЕМОГО МЕТОДА}
+
+В этой главе описана архитектура адаптивного токенизатора ДНК-последовательностей. Метод основан на рекурсивном гейтированном слиянии с дифференцируемым динамическим программированием и обучается совместно с backbone-моделью на задаче предсказания следующего нуклеотида (NTP) на референсном геноме человека.
+
+\section{Общая архитектура}
+
+Архитектура состоит из четырёх этапов:
+\begin{enumerate}
+  \item инициализация представлений на уровне нуклеотидов;
+  \item рекурсивное слияние соседних элементов с гейтированной оценкой;
+  \item кодирование результата backbone-моделью на укороченной последовательности;
+  \item декодирование обратно на уровень нуклеотидов для вычисления NTP loss.
+\end{enumerate}
+
+Идея здесь простая: начинаем с отдельных нуклеотидов, рекурсивно объединяем соседей в составные токены, а основную вычислительную работу выполняем уже на более короткой последовательности. Какие именно пары сливать, решает обучаемая функция, оптимизируемая вместе с моделью.
+
+От фиксированного patching (MegaByte~\cite{yuMegaBytePredictingMillionbyte2023}, PatchDNA~\cite{patchDNA2026}) метод отличается адаптивными границами. От одноуровневой мягкой токенизации (GBST в Charformer~\cite{tayCharformerFastCharacter2022}) - рекурсивной схемой с ограничением непересечения через дифференцируемое DP. От entropy-based patching (BLT~\cite{bltByteLatentTransformer2024}) - использованием биологических приоров. От MergeDNA~\cite{mergeDNAContextAware2026} - рекурсией и дифференцируемым DP.
+
+
+\section{Инициализация представлений}
+
+\subsection{Входная последовательность и embedding}
+
+Входная ДНК-последовательность длины $L$:
+\begin{equation}
+S = (n_1, n_2, \dots, n_L), \qquad n_i \in \{A, T, C, G\}.
+\label{eq:input_seq}
+\end{equation}
+
+Словарь включает канонические нуклеотиды, символ $N$ и специальные токены (CLS, SEP, PAD, MASK, UNK) - всего $|V| = 10$. Каждый входной символ отображается в вектор размерности $d$ через обучаемую матрицу $E \in \mathbb{R}^{|V| \times d}$:
+\begin{equation}
+e_v = E[v] \in \mathbb{R}^d.
+\label{eq:embedding}
+\end{equation}
+
+Словарь крошечный по меркам NLP (там порядка $10^4$--$10^5$ токенов), и вся выразительная способность представления переносится на последующие уровни слияния.
+
+Инициализацию embedding matrix можно сделать биологически мотивированной: пурины $(A, G)$ и пиримидины $(T, C)$ образуют две группы, а комплементарные пары $(A \leftrightarrow T, G \leftrightarrow C)$ связаны Watson--Crick спариванием. На практике каждому нуклеотиду назначается вектор группы, затем добавляется уникальное смещение и небольшой случайный шум для нарушения симметрии.
+
+\subsection{Позиционное кодирование}
+
+Используется Rotary Positional Embedding (RoPE)~\cite{suRoFormerEnhancedTransformer2021}~- скалярное произведение двух закодированных позиций зависит только от относительного расстояния. Это полезно для рекурсивного слияния, где абсолютные позиции теряют смысл, а относительное положение соседей остаётся важным.
+
+\subsection{Контекстное обогащение}
+
+Начальные embedding'и содержат информацию только об одном нуклеотиде. Для расширения контекста перед merge pipeline применяется каузальная одномерная свёртка с kernel size~5:
+\begin{equation}
+\hat{x}_i^{(0)} = x_i^{(0)} + \operatorname{Conv1D}_{k=5}(\mathbf{X}^{(0)})_i.
+\label{eq:contextualizer}
+\end{equation}
+
+Каузальность (padding слева) нужна для совместимости с NTP. При этом параметров добавляется $5d^2$ - при $d = 256$ около 320\,000, что пренебрежимо по сравнению с backbone.
+
+\subsection{Обработка reverse complement}
+
+ДНК - двуцепочечная молекула, и многие функциональные элементы работают на обеих цепях. Поэтому используются две стратегии: data augmentation (с вероятностью $0{,}5$ заменяем последовательность на reverse complement) и опциональный регуляризатор $\mathcal{L}_{\mathrm{RC}}$, штрафующий расхождение оценок слияния между прямой и комплементарной цепью (подробнее в~\S\ref{sec:loss}).
+
+
+\section{Гейтированная оценка границ}
+
+\subsection{Функция оценки слияния}
+
+На каждом уровне рекурсии $l$ для каждой соседней пары $(x_i^{(l)}, x_{i+1}^{(l)})$ вычисляется оценка слияния из двух компонент.
+
+Оценка сходства - scaled dot-product с обучаемой проекцией:
+\begin{equation}
+s_{\mathrm{sim},i}^{(l)} = \frac{(x_i^{(l)})^\top W_k^{(l)}\, x_{i+1}^{(l)}}{\sqrt{d}},
+\label{eq:sim_score}
+\end{equation}
+где $W_k^{(l)} \in \mathbb{R}^{d \times d}$. Проекция делает оценку асимметричной, что не недостаток: ДНК-последовательность направлена ($5' \to 3'$), и порядок нуклеотидов биологически значим~\cite{rosenbergPatternsTransitionalMutation2003}.
+
+Гейт - контекстно-зависимая склонность к слиянию:
+\begin{equation}
+g_i^{(l)} = \sigma\!\left((w_g^{(l)})^\top [x_i^{(l)}; x_{i+1}^{(l)}] + b_g^{(l)}\right),
+\label{eq:gate}
+\end{equation}
+где $\sigma$ - сигмоида. Гейт может подавлять слияние на границах кодонов или в регуляторных областях даже при высоком сходстве соседей. Смещение $b_g^{(l)}$ инициализируется $-0{,}5$, чтобы на старте модель предпочитала не сливать (предотвращает чрезмерное сжатие на ранних итерациях).
+
+Итого: $s_i^{(l)} = g_i^{(l)} \cdot s_{\mathrm{sim},i}^{(l)}$.
+
+\subsection{Температурная модуляция}
+
+Для управления жёсткостью решений вводится температура $\tau^{(l)} > 0$:
+\begin{equation}
+s_i^{(l)} = g_i^{(l)} \cdot \frac{s_{\mathrm{sim},i}^{(l)}}{\tau^{(l)}}.
+\label{eq:temp_modulation}
+\end{equation}
+
+Температура снижается по cosine schedule в процессе обучения: от $\tau_{\max} = 1{,}0$ до $\tau_{\min} = 0{,}1$. Высокая температура означает мягкие решения, низкая - жёсткие. Это обеспечивает плавный переход от мягких решений при обучении к дискретным при инференсе.
+
+\subsection{Интеграция биологических приоров}
+
+Биологические приоры вводятся как дополнительные входы в гейт, а не как отдельная цель обучения.
+
+Для оценок консервативности (phastCons~\cite{siepelEvolutionarilyConservedElements2005}, $c_i \in [0,1]$) формируется вектор из пяти признаков: значения $c_i$ и $c_{i+1}$, их разность, минимум и среднее. Разрыв $|c_i - c_{i+1}|$ может сигнализировать о функциональной границе.
+
+Для мотивов JASPAR~\cite{rauluseviciuteJASPAR2024} аналогично: индикаторы начала и конца мотива, число мотивов на позиции, качество совпадения.
+
+Расширенный гейт объединяет обучаемую и биологическую компоненты:
+\begin{equation}
+g_i^{(l)} = \sigma\!\left(
+(w_g^{(l)})^\top [x_i^{(l)}; x_{i+1}^{(l)}]
++ (w_c^{(l)})^\top \phi_i
++ (w_m^{(l)})^\top \psi_i
++ b_g^{(l)}
+\right),
+\label{eq:extended_gate}
+\end{equation}
+где $\phi_i$ и $\psi_i$ - векторы признаков консервативности и мотивов (по 5 компонент каждый), $w_c^{(l)}$ и $w_m^{(l)}$ - обучаемые веса. Если аннотации отсутствуют, модель использует только первый член.
+
+
+\section{Механизм рекурсивного слияния}
+
+\subsection{Задача выбора пар}
+
+На каждом уровне нужно выбрать подмножество соседних пар для слияния, причём выбранные пары не должны пересекаться:
+\begin{equation}
+M^{(l)} = \arg\max_{M} \sum_{i \in M} s_i^{(l)},
+\qquad |M| = \lfloor r^{(l)} N^{(l)} \rfloor,
+\qquad \forall\, i, j \in M: |i - j| > 1,
+\label{eq:discrete_selection}
+\end{equation}
+где $r^{(l)}$ - целевая доля слияний на уровне $l$. Задача решается динамическим программированием на одномерной последовательности, однако жёсткий выбор делает этот шаг недифференцируемым.
+
+\subsection{Дифференцируемый выбор через dDP}
+\label{sec:ddp}
+
+При обучении жёсткий argmax заменяется на мягкий через log-semiring relaxation~\cite{menschDifferentiableDynamicProgramming2018}. Вместо операции $\max$ используется $\mathrm{softmax}_\beta$:
+\begin{equation}
+\mathrm{softmax}_\beta(a, b) = \frac{1}{\beta} \log(\exp(\beta a) + \exp(\beta b)),
+\label{eq:softmax_beta}
+\end{equation}
+которая при $\beta \to \infty$ стремится к $\max$.
+
+DP-рекуррента принимает вид:
+\begin{equation}
+D[i, k] = \mathrm{softmax}_\beta\!\left(
+D[i-1, k],\;
+D[i-2, k-1] + s_i^{(l)}
+\right),
+\label{eq:dp_recurrence}
+\end{equation}
+где $D[i, k]$ - мягкий оптимальный score при $i$ рассмотренных позициях и $k$ выбранных парах. Мягкие merge-веса $\alpha_i^{(l)} \in [0,1]$ извлекаются как производная $\partial D[N, K] / \partial s_i$, что интерпретируется как маргинальная вероятность включения позиции $i$ в оптимальный набор. Сложность - $O(N \cdot K)$ на уровень.
+
+В качестве альтернативы рассматривается Straight-Through Estimator (STE)~\cite{bengioEstimatingPropagatingGradients2013}: forward pass - жёсткий DP, backward - градиент через soft scores. Подход проще в реализации, но даёт смещённые градиенты.
+
+\subsection{Формирование объединённых представлений}
+
+Для каждой выбранной пары объединённое представление вычисляется MLP:
+\begin{equation}
+\tilde{x}_{i}^{(l+1)} = \operatorname{MLP}_{\mathrm{merge}}^{(l)}\!\left([x_i^{(l)};\; x_{i+1}^{(l)};\; x_i^{(l)} \odot x_{i+1}^{(l)}]\right),
+\label{eq:merge_mlp}
+\end{equation}
+где $\odot$ - поэлементное произведение. Конкатенация сохраняет информацию, произведение кодирует попарное взаимодействие. MLP: вход $3d$, скрытый $2d$, выход $d$, активация GELU~\cite{hendrycksGaussianErrorLinear2016}.
+
+При обучении переход к следующему уровню - мягкая интерполяция:
+\begin{equation}
+x_i^{(l+1)} = \alpha_i^{(l)} \cdot \tilde{x}_{i}^{(l+1)} + (1 - \alpha_i^{(l)}) \cdot \operatorname{proj}(x_i^{(l)}),
+\label{eq:soft_assignment}
+\end{equation}
+где $\operatorname{proj}$ - линейная проекция с LayerNorm. При инференсе $\alpha_i \in \{0, 1\}$ - жёсткий выбор.
+
+\subsection{Динамика сжатия}
+
+После каждого уровня длина сокращается. При долях слияний $r^{(1)} = 0{,}3$, $r^{(2)} = 0{,}3$, $r^{(3)} = 0{,}25$ итоговое сжатие составляет $1 - 0{,}7 \times 0{,}7 \times 0{,}75 \approx 63\%$: из 2048 нуклеотидов получается около 756 токенов. Чтобы спаны не становились слишком длинными, вводится ограничение $\ell_j \leq \ell_{\max} = 8$: пары, слияние которых нарушило бы ограничение, исключаются из кандидатов.
+
+\subsection{Training--inference gap}
+
+Мягкий selection при обучении и жёсткий при инференсе создают расхождение. Чтобы его контролировать, отслеживается доля <<неуверенных>> позиций ($\alpha_i \in (0{,}2;\, 0{,}8)$), несовпадение soft и hard решений, а также разность val loss между режимами. Если разность превышает $0{,}05$, температурный annealing ускоряется; если меньше $0{,}01$, наоборот, замедляется.
+
+
+\section{Позиционное кодирование после слияния и декодирование}
+
+\subsection{Span positional encoding}
+
+После слияния каждый токен $j$ покрывает непрерывный диапазон $[a_j, b_j]$ в исходной последовательности. RoPE частично размывается после нелинейных MLP, поэтому перед backbone повторно внедряется позиционная информация.
+
+Для каждого токена формируется вектор признаков из координат начала и конца спана, его длины, центра и нормализованных значений, который затем пропускается через MLP. Дополнительно кодируется глубина рекурсии через one-hot.
+
+\subsection{Backbone}
+
+Укороченная последовательность ($N \ll L$ токенов) обрабатывается каузальным Transformer: 6 слоёв, 8 голов, $d = 256$, FFN $4d = 1024$, pre-LN, RoPE на уровне token-позиций.
+
+\subsection{Cross-attention каузальный декодер}
+\label{sec:decoder}
+
+Целевая функция определена на уровне нуклеотидов, поэтому нужно восстановить представления длины $L$. Проблема в каузальности: токен $j$ со спаном $[a_j, b_j]$ содержит информацию обо всех нуклеотидах внутри, включая <<будущие>>. Следовательно, декодер должен это учитывать явно.
+
+Для каждой позиции $t$ формируется query из embedding'а предыдущего нуклеотида. Каузальная маска допускает attention только к токенам с $b_j < t$ - полностью завершившимся до позиции $t$. Residual skip connection от shifted embeddings даёт декодеру прямой доступ к nucleotide-level информации:
+\begin{equation}
+r_t = \operatorname{CrossAttn}(q_t, \hat{Z}, \operatorname{Mask}(t, \cdot)) + W_{\mathrm{skip}} \cdot E[n_{t-1}].
+\label{eq:residual_decoder}
+\end{equation}
+
+На выходе - логиты по четырём нуклеотидам через линейный слой + softmax.
+
+Для длинных последовательностей ($L > 4096$) предусмотрена альтернатива: intra-span causal decoder, где нуклеотиды внутри каждого спана предсказываются авторегрессионно через лёгкий GRU.
+
+
+\section{Функция потерь}
+\label{sec:loss}
+
+\subsection{Основной loss}
+
+Next-nucleotide prediction:
+\begin{equation}
+\mathcal{L}_{\mathrm{NTP}} = -\frac{1}{|T_{\mathrm{valid}}|}\sum_{t \in T_{\mathrm{valid}}} \log P(n_t \mid n_{<t}),
+\label{eq:ntp_loss}
+\end{equation}
+где $T_{\mathrm{valid}}$ исключает позиции с $N$ и PAD. Границы токенов обучаются через то, как они помогают backbone и декодеру решать NTP.
+
+\subsection{Регуляризаторы}
+
+К основному loss добавляются четыре регуляризатора.
+
+Compression loss штрафует отклонение фактического коэффициента сжатия от целевого на каждом уровне:
+\begin{equation}
+\mathcal{L}_{\mathrm{compress}} = \sum_{l=1}^{L_{\max}} \left( \frac{|\mathcal{M}^{(l)}|}{N^{(l)}} - r_{\mathrm{target}}^{(l)} \right)^2.
+\label{eq:compression_loss}
+\end{equation}
+
+Entropy regularization поощряет exploration решений на ранних стадиях. Этот член используется только в warmup-фазе, затем обнуляется.
+
+RC-consistency regularization штрафует расхождение merge-скоров между прямой и комплементарной цепями:
+\begin{equation}
+\mathcal{L}_{\mathrm{RC}} = \frac{1}{|\mathcal{P}|}\sum_{(i, \mathrm{RC}(i)) \in \mathcal{P}} \left( s_i^{(l)} - s_{\mathrm{RC}(i)}^{(l)} \right)^2.
+\label{eq:rc_loss}
+\end{equation}
+
+Span diversity loss штрафует низкую дисперсию длин токенов - если все спаны одинаковой длины, токенизация по сути не адаптивна.
+
+\subsection{Итого}
+
+\begin{equation}
+\mathcal{L} = \mathcal{L}_{\mathrm{NTP}} + \lambda_{\mathrm{comp}} \mathcal{L}_{\mathrm{compress}} + \lambda_{\mathrm{ent}} \mathcal{L}_{\mathrm{ent}} + \lambda_{\mathrm{RC}} \mathcal{L}_{\mathrm{RC}} + \lambda_{\mathrm{div}} \mathcal{L}_{\mathrm{div}}.
+\label{eq:total_loss}
+\end{equation}
+
+Коэффициенты $\lambda$ меняются по расписанию. В warmup (первые 10\% шагов): $\lambda_{\mathrm{comp}} = 1{,}0$, $\lambda_{\mathrm{ent}} = 0{,}1$, $\lambda_{\mathrm{div}} = 0{,}01$, $\lambda_{\mathrm{RC}} = 0{,}1$. В основной фазе $\lambda_{\mathrm{ent}}$ обнуляется, $\lambda_{\mathrm{comp}}$ снижается до $0{,}1$ по cosine schedule. В фазе hardening всё фиксируется.
+
+
+\section{Стратегия обучения}
+
+\subsection{Optimizer}
+
+AdamW~\cite{loshchilovDecoupledWeightDecay2019} ($\beta_1 = 0{,}9$, $\beta_2 = 0{,}98$, weight decay $0{,}01$), пиковый learning rate $3 \times 10^{-4}$, linear warmup 2000 steps, cosine decay до $3 \times 10^{-5}$. Gradient clipping: max norm $1{,}0$. bf16 mixed precision.
+
+\subsection{Phased training}
+
+Обучение состоит из трёх фаз, и переход между ними задаётся расписанием.
+
+Phase~1 (backbone warmup, steps 0--5\,000): merge pipeline заморожен, слияний нет, backbone учится как character-level модель. Цель - получить осмысленные embedding'и до того, как merge pipeline начнёт работать.
+
+Phase~2 (joint training, steps 5\,000--90\,000): merge pipeline разморожен. Температурный annealing и рост $\beta$ активированы. Коэффициенты $\lambda$ по расписанию.
+
+Phase~3 (hardening, steps 90\,000--100\,000): финальный annealing до почти дискретных решений.
+
+\subsection{Data pipeline}
+
+Референсный геном человека CHM13~\cite{nurgalievT2TCHm13CompleteHuman2022}; разбиение хромосом задаётся по протоколу HyenaDNA~\cite{nguenHyenaDNALongRangeGenomic2024}: chr8 - test, chr9 - validation. Далее берутся случайные фрагменты длины $L$; регионы с $>50\%$ $N$ пропускаются. RC augmentation применяется с вероятностью $0{,}5$. Conservation scores получаются через BigWig (phastCons~\cite{siepelEvolutionarilyConservedElements2005}), motif annotations - через BigBed (JASPAR~\cite{rauluseviciuteJASPAR2024}). Batch size 64, gradient accumulation $\times 2$ (effective batch 128).
+
+
+\section{План экспериментальной оценки}
+
+\subsection{Baseline модели}
+
+Для сравнения: Char-Transformer (character-level), BPE-Transformer (словарь 4096), Fixed-kmer-Transformer ($k = 6$), Char-Mamba (SSM), PatchDNA~\cite{patchDNA2026}, Charformer~\cite{tayCharformerFastCharacter2022}. Все обучаются на тех же данных с сопоставимым числом параметров ($\pm 10\%$).
+
+\subsection{Ablation study}
+
+Отключаем по одному компоненту: bio priors, температурный annealing, span PE, произведение Адамара в MLP merge, dDP (замена на STE), cross-attention декодер (замена на MLP), контекстуализатор, phased training.
+
+\subsection{Метрики}
+
+Предобучение: NTP perplexity (soft и hard modes), bits per nucleotide, effective compression ratio, merge decision entropy, training--inference gap.
+
+Downstream: DART-Eval~\cite{patel2025dartevalcomprehensivednalanguage} (zero-shot, probing, fine-tuning). Fine-tuning: backbone frozen или LoRA rank~8, linear probe, 10 epochs, lr $10^{-4}$. Merge pipeline при fine-tuning не дообучается. Дополнительно: variant effect prediction (ClinVar~\cite{landrumClinVar2018}), promoter detection (EPDnew~\cite{dreosEPDnew2015}), splice site prediction (GENCODE~\cite{frankishGENCODE2019}).
+
+\subsection{Анализ выученной токенизации}
+
+Для проверки биологической гипотезы: enrichment analysis (пересечение границ с аннотациями GENCODE~\cite{frankishGENCODE2019} и ENCODE cCREs~\cite{encodeExpandedRegistry2024}), biological coherence score (совпадение с exon-intron junctions и границами мотивов TF), корреляция длины спана с conservation score, визуализация в genome browser.
+
+
+\section{Вычислительная сложность}
+
+Основные компоненты: embedding - $O(Ld)$; merge scoring - $O(N^{(l)} d^2)$ на уровень; dDP - $O(N^{(l)} K^{(l)})$ на уровень; merge MLP - $O(N^{(l)} d^2)$ на уровень; backbone Transformer - $O(N^2 d)$; cross-attention decoder - $O(LNd)$.
+
+Суммарно около 19{,}5M параметров (backbone ${\sim}15$M, merge pipeline ${\sim}3$M, decoder ${\sim}1{,}5$M). При этом самый дорогой компонент (backbone) работает на сжатой последовательности $N \ll L$.
+
+
+\section{Выводы по главе~2}
+
+Предложена архитектура адаптивного токенизатора, отличающаяся от существующих работ комбинацией рекурсивного слияния, дифференцируемого DP через log-semiring и интеграции биоприоров в гейтирование. Температурный annealing обеспечивает переход от мягких решений при обучении к жёстким при инференсе. Каузальный cross-attention декодер восстанавливает нуклеотидное разрешение для вычисления NTP loss.
+
+Описаны составная функция потерь с четырьмя регуляризаторами, трёхфазная стратегия обучения и план экспериментов на DART-Eval с ablation study.

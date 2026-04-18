@@ -5,7 +5,7 @@
 \usepackage{longtable}
 \usepackage{etoolbox}
 
-\DeclareCaptionLabelSeparator{emdash}{\space---\space}  % пробел, длинное тире, пробел
+\DeclareCaptionLabelSeparator{emdash}{\space-\space}  % пробел, длинное тире, пробел
 
 % Настройка заголовков таблиц: слева без абзацного отступа, разделитель — тире (п. 4.6.3)
 \captionsetup[table]{position=t, singlelinecheck=false, justification=raggedright, labelsep=emdash, name=Таблица}
@@ -14,9 +14,9 @@
 \newcommand*\RightCaption{\captionsetup{justification=raggedleft}}
 \newcommand*\LeftCaption{\captionsetup{justification=raggedright}}
 
-% ------------------------
+% -
 % Шаблон: Многоуровневый заголовок
-% ------------------------
+% -
 \newcommand{\ExampleMultiLevelTable}{%
 \begin{table}[h!]
 \caption{Пример построения таблицы}
@@ -36,7 +36,7 @@ A & B & C & D \\
 % Шаблон: «Разбитая» таблица (две части под одним номером)
 % Номер таблицы в строке «Продолжение таблицы N» подставляется автоматически
 \newcommand{\ExampleSplitTable}{%
-  % --- Первая часть ---
+  % - Первая часть -
   \begin{table}[h!]
     \LeftCaption
     \caption{Пример переноса таблицы}
@@ -53,7 +53,7 @@ A & B & C & D \\
     \end{tabular}
   \end{table}
 
-  % --- Продолжение (номер подставляется автоматически через \thetable) ---
+  % - Продолжение (номер подставляется автоматически через \thetable) -
   \begin{table}[h!]
     \ContinuedFloat
     \RightCaption
