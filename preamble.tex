@@ -2,7 +2,8 @@
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
 
-% Настройка полей: левое 30 мм, правое 15 мм (допускается 10 мм), верхнее 20 мм, нижнее 20 мм (п. 4.2)
+% Настройка полей: левое 30 мм, правое 15 мм (допускается 10 мм),
+% верхнее 20 мм, нижнее 20 мм (п. 4.2)
 \usepackage[a4paper,top=20mm,bottom=20mm,left=30mm,right=15mm]{geometry}
 
 % Межстрочный интервал 1.5, размер шрифта 14 пт (п. 4.2)
@@ -13,7 +14,8 @@
 \setlength{\parindent}{1.25cm}
 \setlength{\parskip}{0pt}
 
-% Нумерация страниц: арабскими цифрами, по центру нижней части, без точки (п. 4.3.1)
+% Нумерация страниц: арабскими цифрами, по центру нижней части, без
+% точки (п. 4.3.1)
 % Нумерация сквозная, включая приложения — см. \setcounter{page} в main.tex
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -32,7 +34,8 @@
 \titleformat{\chapter}[hang]{\bfseries\fontsize{16pt}{18pt}\selectfont\centering}{\thechapter}{1em}{\MakeUppercase}
 % Разделы: полужирный, с абзацного отступа (п. 4.4.4)
 \titleformat{\section}[hang]{\bfseries\normalsize}{\thesection}{1em}{}
-% Подразделы: обычный шрифт, с абзацного отступа (п. 4.4.4 — полужирный только для разделов)
+% Подразделы: обычный шрифт, с абзацного отступа (п. 4.4.4 —
+% полужирный только для разделов)
 \titleformat{\subsection}[hang]{\normalfont}{\thesubsection}{1em}{}
 \titlespacing{\chapter}{0pt}{0pt}{20pt}
 \titlespacing{\section}{1.25cm}{12pt}{6pt}
@@ -42,7 +45,8 @@
 \setcounter{tocdepth}{2}      % в содержании: главы + разделы + подразделы
 \setcounter{secnumdepth}{3}   % нумерация до уровня подпунктов (1.1.1)
 
-% Настройка содержания: обычный шрифт (не жирный) (п. 4.2), точечные лидеры (п. 3.4)
+% Настройка содержания: обычный шрифт (не жирный) (п. 4.2), точечные
+% лидеры (п. 3.4)
 \usepackage{tocloft}
 \renewcommand{\cftdotsep}{1}
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
@@ -70,7 +74,8 @@
 \DeclareFieldFormat*{issuetitle}{#1}
 \DeclareFieldFormat{namewrapperformat}{#1}
 
-% Убираем курсив из имён авторов (\mkgostheading — внутренняя команда gost-numeric)
+% Убираем курсив из имён авторов (\mkgostheading — внутренняя команда
+% gost-numeric)
 \renewcommand*{\mkgostheading}[1]{#1}
 \renewcommand*{\mkbibnamefamily}[1]{#1}
 \renewcommand*{\mkbibnamegiven}[1]{#1}
@@ -78,7 +83,9 @@
 \renewcommand*{\mkbibnamesuffix}[1]{#1}
 
 % Буквы для приложений (исключены Ё, З, Й, О, Ч, Ъ, Ы, Ь — п. 4.11.2)
-\def\cyrtoc#1{\ifcase #1\or А\or Б\or В\or Г\or Д\or Е\or Ж\or И\or К\or Л\or М\or Н\or П\or Р\or С\or Т\or У\or Ф\or Х\or Ц\or Ш\or Щ\or Э\or Ю\or Я\else \@ctrerr \fi}
+\def\cyrtoc#1{\ifcase #1\or А\or Б\or В\or Г\or Д\or Е\or Ж\or И\or
+  К\or Л\or М\or Н\or П\or Р\or С\or Т\or У\or Ф\or Х\or Ц\or Ш\or Щ\or
+Э\or Ю\or Я\else \@ctrerr \fi}
 
 \newcommand\originalappendix{}
 \let\originalappendix\appendix
@@ -90,7 +97,8 @@
   \titleformat{\chapter}{\fontsize{16pt}{18pt}\selectfont\bfseries\centering}{\appendixname\ \thechapter.}{4pt}{}
 }
 
-% Переопределяем \mainmatter: убираем сброс счётчика страниц (п. 4.3.1 — сквозная нумерация)
+% Переопределяем \mainmatter: убираем сброс счётчика страниц (п.
+% 4.3.1 — сквозная нумерация)
 \makeatletter
 \renewcommand{\mainmatter}{%
   \cleardoublepage

@@ -367,68 +367,6 @@
       \verb 10.18653/v1/P16-1162
       \endverb
     \endentry
-    \entry{tokenizationGenomicsReview2025}{article}{useauthor=false}{}
-      \true{moreauthor}
-      \name{author}{1}{}{%
-        {{hash=726c2a48dc7d072bc371b92fc2321aaa}{%
-           family={Clauwaert},
-           familyi={C\bibinitperiod},
-           given={Jim},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{authorbibnamehash}{f7f67042f33bb542dd085540e91a246a}
-      \strng{authornamehash}{f7f67042f33bb542dd085540e91a246a}
-      \strng{authorfullhash}{f7f67042f33bb542dd085540e91a246a}
-      \strng{authorfullhashraw}{f7f67042f33bb542dd085540e91a246a}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computational and Structural Biotechnology Journal}
-      \field{title}{Tokenization and Deep Learning Architectures in Genomics: A Comprehensive Review}
-      \field{year}{2025}
-      \verb{doi}
-      \verb 10.1016/j.csbj.2025.07.038
-      \endverb
-    \endentry
-    \entry{schoenfelderLongrangeEnhancerPromoter2019}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=ed84224cd2bdf2b0cb2e19d6790d7f82}{%
-           family={Schoenfelder},
-           familyi={S\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=3d525bf0bfb1846a3275fc4a2873fb78}{%
-           family={Fraser},
-           familyi={F\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{3f94e4766d25ba10f551f53cc0e59b75}
-      \strng{fullhash}{3f94e4766d25ba10f551f53cc0e59b75}
-      \strng{fullhashraw}{3f94e4766d25ba10f551f53cc0e59b75}
-      \strng{bibnamehash}{3f94e4766d25ba10f551f53cc0e59b75}
-      \strng{authorbibnamehash}{3f94e4766d25ba10f551f53cc0e59b75}
-      \strng{authornamehash}{3f94e4766d25ba10f551f53cc0e59b75}
-      \strng{authorfullhash}{3f94e4766d25ba10f551f53cc0e59b75}
-      \strng{authorfullhashraw}{3f94e4766d25ba10f551f53cc0e59b75}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{internalsortvolume}{20}
-      \field{journaltitle}{Nature Reviews Genetics}
-      \field{title}{Long-Range Enhancer--Promoter Contacts in Gene Expression Control}
-      \field{year}{2019}
-      \field{number}{8}
-      \range{number}{1}
-      \field{pages}{437\bibrangedash 455}
-      \range{pages}{19}
-      \field{volume}{20}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1038/s41576-019-0128-0
-      \endverb
-    \endentry
     \entry{landerInitialSequencingAnalysis2001}{article}{useauthor=false}{}
       \true{moreauthor}
       \name{author}{3}{}{%
@@ -452,8 +390,8 @@
       \strng{authornamehash}{8b8ae8aaf42d5bb74cd029ddb08d24c2}
       \strng{authorfullhash}{8b8ae8aaf42d5bb74cd029ddb08d24c2}
       \strng{authorfullhashraw}{8b8ae8aaf42d5bb74cd029ddb08d24c2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{internalsortvolume}{409}
       \field{journaltitle}{Nature}
@@ -516,8 +454,8 @@
       \strng{authornamehash}{97d5bd610bd9028c9d9dfa8be8b28932}
       \strng{authorfullhash}{0505c38a515b576eb6702f1b57751d8d}
       \strng{authorfullhashraw}{0505c38a515b576eb6702f1b57751d8d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{internalsortvolume}{41}
       \field{journaltitle}{Bioinformatics}
@@ -552,9 +490,6 @@
            given={Aleksandr},
            giveni={A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Genomics}%
-      }
       \strng{authorbibnamehash}{4b5c48b3772659c864d66c49b3d81c53}
       \strng{authornamehash}{4b5c48b3772659c864d66c49b3d81c53}
       \strng{authorfullhash}{4b5c48b3772659c864d66c49b3d81c53}
@@ -562,10 +497,14 @@
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
+      \field{eprinttype}{bioRxiv}
       \field{title}{Genomic {{Foundationless Models}}: {{Pretraining Does Not Promise Performance}}}
       \field{year}{2024}
       \verb{doi}
       \verb 10.1101/2024.12.18.628606
+      \endverb
+      \verb{eprint}
+      \verb 2024.12.18.628606
       \endverb
     \endentry
     \entry{eapenGenomicTokenizerBiologydriven2025}{misc}{}{}
@@ -620,118 +559,6 @@
       \field{volume}{37}
       \range{volume}{1}
     \endentry
-    \entry{mergeDNAContextAware2026}{inproceedings}{useauthor=false}{}
-      \true{moreauthor}
-      \name{author}{1}{}{%
-        {{hash=aaf82b828c51f08749f4d70b2a2f681a}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Zicheng},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \strng{authorbibnamehash}{e46f4c60d447cdb04bd39bebcee6239b}
-      \strng{authornamehash}{e46f4c60d447cdb04bd39bebcee6239b}
-      \strng{authorfullhash}{e46f4c60d447cdb04bd39bebcee6239b}
-      \strng{authorfullhashraw}{e46f4c60d447cdb04bd39bebcee6239b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the {{AAAI}} Conference on Artificial Intelligence}
-      \field{note}{AAAI 2026, Oral}
-      \field{title}{{{MergeDNA}}: Context-Aware Genome Modeling with Dynamic Tokenization through Token Merging}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.1609/aaai.v40i1.37032
-      \endverb
-    \endentry
-    \entry{dnachunkerLearnableTokenization2026}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
-           family={authors},
-           familyi={a\bibinitperiod},
-           given={Anonymous},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{month}{1}
-      \field{note}{arXiv:2601.03019}
-      \field{title}{{{DNAChunker}}: Learnable Tokenization for {{DNA}} Language Models}
-      \field{year}{2026}
-      \verb{eprint}
-      \verb 2601.03019
-      \endverb
-    \endentry
-    \entry{evoLenEvolutionGuided2026}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
-           family={authors},
-           familyi={a\bibinitperiod},
-           given={Anonymous},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{month}{4}
-      \field{note}{arXiv:2604.08698}
-      \field{title}{{{EvoLen}}: Evolution-Guided Tokenization for {{DNA}} Language Model}
-      \field{year}{2026}
-      \verb{eprint}
-      \verb 2604.08698
-      \endverb
-    \endentry
-    \entry{patchDNA2026}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
-           family={authors},
-           familyi={a\bibinitperiod},
-           given={Anonymous},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{ICLR 2026}
-      \field{title}{{{PatchDNA}}: A Flexible and Biologically-Informed Alternative to Tokenization for {{DNA}}}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.1101/2025.11.28.691095
-      \endverb
-    \endentry
     \entry{bioTokenBioFM2025}{misc}{useauthor=false}{}
       \true{moreauthor}
       \name{author}{1}{}{%
@@ -780,8 +607,8 @@
       \strng{authornamehash}{ee4013fd116c5cb09a324b461cbf64a2}
       \strng{authorfullhash}{ee4013fd116c5cb09a324b461cbf64a2}
       \strng{authorfullhashraw}{ee4013fd116c5cb09a324b461cbf64a2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
       \field{month}{12}
@@ -829,8 +656,8 @@
       \strng{authornamehash}{faa30336ad5d359c9a2a4c9f2a1b771c}
       \strng{authorfullhash}{9490943e2079ca2559a722a782848ace}
       \strng{authorfullhashraw}{9490943e2079ca2559a722a782848ace}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
       \field{note}{arXiv:2305.07185}
@@ -839,36 +666,6 @@
       \verb{eprint}
       \verb 2305.07185
       \endverb
-    \endentry
-    \entry{tayCharformerFastCharacter2022}{inproceedings}{useauthor=false}{}
-      \true{moreauthor}
-      \name{author}{3}{}{%
-        {{hash=7579658a0aca8cb0e17a89deb28b8ccc}{%
-           family={Tay},
-           familyi={T\bibinitperiod},
-           given={Yi},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=7293e1a56ec1e6208f9ca6357d887650}{%
-           family={Tran},
-           familyi={T\bibinitperiod},
-           given={Vinh\bibnamedelima Q.},
-           giveni={V\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
-        {{hash=b468248a20d75c52ee742f4592c2569f}{%
-           family={Ruder},
-           familyi={R\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{authorbibnamehash}{f0163efa6113ed31d84c36a9019de89e}
-      \strng{authornamehash}{f0163efa6113ed31d84c36a9019de89e}
-      \strng{authorfullhash}{f0163efa6113ed31d84c36a9019de89e}
-      \strng{authorfullhashraw}{f0163efa6113ed31d84c36a9019de89e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{International Conference on Learning Representations ({{ICLR}})}
-      \field{title}{Charformer: Fast Character Transformers via Gradient-based Subword Tokenization}
-      \field{year}{2022}
     \endentry
     \entry{patel2025dartevalcomprehensivednalanguage}{misc}{useauthor=false}{}
       \name{author}{6}{}{%
@@ -907,8 +704,8 @@
       \strng{authornamehash}{f4e889e85c0a47fb492fb7d8f0a3684f}
       \strng{authorfullhash}{c90640bed5d32c74333e81a9cd13589c}
       \strng{authorfullhashraw}{c90640bed5d32c74333e81a9cd13589c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.LG}
       \field{eprinttype}{arXiv}
@@ -942,8 +739,8 @@
       \strng{authornamehash}{bf51d00aedc00084e50c4ff43ce7c892}
       \strng{authorfullhash}{bf51d00aedc00084e50c4ff43ce7c892}
       \strng{authorfullhashraw}{bf51d00aedc00084e50c4ff43ce7c892}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 35th International Conference on Machine Learning ({{ICML}})}
@@ -994,8 +791,8 @@
       \strng{authornamehash}{0225545b1846937377ccd07097c18fc0}
       \strng{authorfullhash}{d47b4f401928be169881e6fa3d5df8db}
       \strng{authorfullhashraw}{d47b4f401928be169881e6fa3d5df8db}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{internalsortvolume}{15}
       \field{journaltitle}{Genome Research}
@@ -1039,8 +836,8 @@
       \strng{authornamehash}{5b372fbc54ce5e5fd7e5c3f9bf3592dc}
       \strng{authorfullhash}{4736986e9eabbcf5b76acac102a0b585}
       \strng{authorfullhashraw}{4736986e9eabbcf5b76acac102a0b585}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{internalsortvolume}{52}
       \field{journaltitle}{Nucleic Acids Research}
@@ -1132,6 +929,217 @@
       \range{volume}{1}
       \verb{doi}
       \verb 10.1126/science.abj6987
+      \endverb
+    \endentry
+    \entry{schoenfelderLongrangeEnhancerPromoter2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ed84224cd2bdf2b0cb2e19d6790d7f82}{%
+           family={Schoenfelder},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3d525bf0bfb1846a3275fc4a2873fb78}{%
+           family={Fraser},
+           familyi={F\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f94e4766d25ba10f551f53cc0e59b75}
+      \strng{fullhash}{3f94e4766d25ba10f551f53cc0e59b75}
+      \strng{fullhashraw}{3f94e4766d25ba10f551f53cc0e59b75}
+      \strng{bibnamehash}{3f94e4766d25ba10f551f53cc0e59b75}
+      \strng{authorbibnamehash}{3f94e4766d25ba10f551f53cc0e59b75}
+      \strng{authornamehash}{3f94e4766d25ba10f551f53cc0e59b75}
+      \strng{authorfullhash}{3f94e4766d25ba10f551f53cc0e59b75}
+      \strng{authorfullhashraw}{3f94e4766d25ba10f551f53cc0e59b75}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{20}
+      \field{journaltitle}{Nature Reviews Genetics}
+      \field{title}{Long-Range Enhancer--Promoter Contacts in Gene Expression Control}
+      \field{year}{2019}
+      \field{number}{8}
+      \range{number}{1}
+      \field{pages}{437\bibrangedash 455}
+      \range{pages}{19}
+      \field{volume}{20}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1038/s41576-019-0128-0
+      \endverb
+    \endentry
+    \entry{encodeExpandedRegistry2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1fbb5d2ef5829f013caaa5f390fefa5e}{%
+           family={{ENCODE Project Consortium}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fbb5d2ef5829f013caaa5f390fefa5e}
+      \strng{fullhash}{1fbb5d2ef5829f013caaa5f390fefa5e}
+      \strng{fullhashraw}{1fbb5d2ef5829f013caaa5f390fefa5e}
+      \strng{bibnamehash}{1fbb5d2ef5829f013caaa5f390fefa5e}
+      \strng{authorbibnamehash}{1fbb5d2ef5829f013caaa5f390fefa5e}
+      \strng{authornamehash}{1fbb5d2ef5829f013caaa5f390fefa5e}
+      \strng{authorfullhash}{1fbb5d2ef5829f013caaa5f390fefa5e}
+      \strng{authorfullhashraw}{1fbb5d2ef5829f013caaa5f390fefa5e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{625}
+      \field{journaltitle}{Nature}
+      \field{title}{An Expanded Registry of Candidate Cis-Regulatory Elements for Studying Transcriptional Regulation}
+      \field{year}{2024}
+      \field{pages}{857\bibrangedash 867}
+      \range{pages}{11}
+      \field{volume}{625}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1038/s41586-024-07105-6
+      \endverb
+    \endentry
+    \entry{frankishGENCODE2019}{article}{useauthor=false}{}
+      \true{moreauthor}
+      \name{author}{6}{}{%
+        {{hash=717e5d7add1371c67cd7e2ea5f164e4b}{%
+           family={Frankish},
+           familyi={F\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=46ff3164c5acc63a76acba40e535237e}{%
+           family={Diekhans},
+           familyi={D\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=16789c47bb7017d74da7db150688433c}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Ana-Maria},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=95529f9d43ec4e826ccb5d9c4e0a0ec0}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Rory},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5cc278d75e798e43f475ec264656a2e2}{%
+           family={Jungreis},
+           familyi={J\bibinitperiod},
+           given={Irwin},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b3b46cf4b80046fdfed307d6be1d80f0}{%
+           family={Loveland},
+           familyi={L\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{da5682f1bbfc16178eb649556fc500ca}
+      \strng{authornamehash}{da5682f1bbfc16178eb649556fc500ca}
+      \strng{authorfullhash}{c2b193dd4efc00f415364984e494c071}
+      \strng{authorfullhashraw}{c2b193dd4efc00f415364984e494c071}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{47}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{title}{{{GENCODE}} Reference Annotation for the Human and Mouse Genomes}
+      \field{year}{2019}
+      \field{number}{D1}
+      \range{number}{1}
+      \field{pages}{D766\bibrangedash D773}
+      \range{pages}{-1}
+      \field{volume}{47}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1093/nar/gky955
+      \endverb
+    \endentry
+    \entry{rosenbergPatternsTransitionalMutation2003}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=889627c9c6eeebabddcce00ecc1173bc}{%
+           family={Rosenberg},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=5aa402093cd9a59edc518272a396615c}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Sankar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f5c6ef9d2cdee2e1c059473af1f0536d}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sudhir},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{80378ac9714712c57af727a55f338923}
+      \strng{fullhash}{80378ac9714712c57af727a55f338923}
+      \strng{fullhashraw}{80378ac9714712c57af727a55f338923}
+      \strng{bibnamehash}{80378ac9714712c57af727a55f338923}
+      \strng{authorbibnamehash}{80378ac9714712c57af727a55f338923}
+      \strng{authornamehash}{80378ac9714712c57af727a55f338923}
+      \strng{authorfullhash}{80378ac9714712c57af727a55f338923}
+      \strng{authorfullhashraw}{80378ac9714712c57af727a55f338923}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{20}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{title}{Patterns of Transitional Mutation Biases Within and Among Mammalian Genomes}
+      \field{year}{2003}
+      \field{number}{6}
+      \range{number}{1}
+      \field{pages}{988\bibrangedash 993}
+      \range{pages}{6}
+      \field{volume}{20}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1093/molbev/msg113
+      \endverb
+    \endentry
+    \entry{ruanLargeLanguageModels2025}{article}{useauthor=false}{}
+      \true{moreauthor}
+      \name{author}{4}{}{%
+        {{hash=87aec7e562ea631899d7e45e0eaf1524}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={Wenqi},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6ec622e5c9810613859051846cc5cdca}{%
+           family={Lyu},
+           familyi={L\bibinitperiod},
+           given={Yunfei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=948f26b38fba102b6f820808e554bc53}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f039d9eda2e689936e7fc6b3bcec38a8}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Jianghong},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{b18fa7def163512b96e5755f9aeeae19}
+      \strng{authornamehash}{b18fa7def163512b96e5755f9aeeae19}
+      \strng{authorfullhash}{fcbfa797f6f896367c24918b396f4b5d}
+      \strng{authorfullhashraw}{fcbfa797f6f896367c24918b396f4b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{14}
+      \field{journaltitle}{Quantitative Biology}
+      \field{title}{Large language models for bioinformatics}
+      \field{year}{2025}
+      \field{number}{1}
+      \range{number}{1}
+      \field{volume}{14}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1002/qub2.70014
       \endverb
     \endentry
     \entry{vaswaniAttentionAllYou2017}{inproceedings}{useauthor=false}{}
@@ -1312,7 +1320,7 @@
       \verb 2312.00752
       \endverb
     \endentry
-    \entry{nguyenEvo2GenomeModeling2026}{article}{useauthor=false}{}
+    \entry{nguyenEvo2GenomeModeling2026}{misc}{useauthor=false}{}
       \true{moreauthor}
       \name{author}{2}{}{%
         {{hash=0fb373363226d716930436af913726a9}{%
@@ -1330,14 +1338,14 @@
       \strng{authornamehash}{428eafbb2e51081c6a8163e89875d9b8}
       \strng{authorfullhash}{428eafbb2e51081c6a8163e89875d9b8}
       \strng{authorfullhashraw}{428eafbb2e51081c6a8163e89875d9b8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
+      \field{eprinttype}{arXiv}
       \field{title}{Genome Modelling and Design across All Domains of Life with {{Evo}} 2}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.1038/s41586-026-10176-5
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2501.09718
       \endverb
     \endentry
     \entry{maHybriDNAHybridTransformerMamba22025}{misc}{useauthor=false}{}
@@ -1470,6 +1478,80 @@
       \verb 10.1101/2025.06.25.661532
       \endverb
     \endentry
+    \entry{chenFoundationModelsBioinformatics2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b53ba6c854bf668ffd05330a7fab3f90}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhuowan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=8001773eb33d8520b85bf2cd2d8f03bd}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7f1dbb3e5348f8ec096146acb4bf2ff0}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Ge},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ceb35162637c4ad3b38b79b7f6fa342b}
+      \strng{fullhash}{ceb35162637c4ad3b38b79b7f6fa342b}
+      \strng{fullhashraw}{ceb35162637c4ad3b38b79b7f6fa342b}
+      \strng{bibnamehash}{ceb35162637c4ad3b38b79b7f6fa342b}
+      \strng{authorbibnamehash}{ceb35162637c4ad3b38b79b7f6fa342b}
+      \strng{authornamehash}{ceb35162637c4ad3b38b79b7f6fa342b}
+      \strng{authorfullhash}{ceb35162637c4ad3b38b79b7f6fa342b}
+      \strng{authorfullhashraw}{ceb35162637c4ad3b38b79b7f6fa342b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{internalsortvolume}{12}
+      \field{journaltitle}{Quantitative Biology}
+      \field{title}{Foundation models for bioinformatics}
+      \field{year}{2024}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{339\bibrangedash 344}
+      \range{pages}{6}
+      \field{volume}{12}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1002/qub2.69
+      \endverb
+    \endentry
+    \entry{tayCharformerFastCharacter2022}{inproceedings}{useauthor=false}{}
+      \true{moreauthor}
+      \name{author}{3}{}{%
+        {{hash=7579658a0aca8cb0e17a89deb28b8ccc}{%
+           family={Tay},
+           familyi={T\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7293e1a56ec1e6208f9ca6357d887650}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Vinh\bibnamedelima Q.},
+           giveni={V\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=b468248a20d75c52ee742f4592c2569f}{%
+           family={Ruder},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{f0163efa6113ed31d84c36a9019de89e}
+      \strng{authornamehash}{f0163efa6113ed31d84c36a9019de89e}
+      \strng{authorfullhash}{f0163efa6113ed31d84c36a9019de89e}
+      \strng{authorfullhashraw}{f0163efa6113ed31d84c36a9019de89e}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Learning Representations ({{ICLR}})}
+      \field{title}{Charformer: Fast Character Transformers via Gradient-based Subword Tokenization}
+      \field{year}{2022}
+    \endentry
     \entry{daiFunnelTransformerFiltering2020}{inproceedings}{useauthor=false}{}
       \name{author}{4}{}{%
         {{hash=74ae4c193de464cda59c8066619514fd}{%
@@ -1497,8 +1579,8 @@
       \strng{authornamehash}{64f332e195de5d241c9866cc6621f71f}
       \strng{authorfullhash}{fd0c4ed7e01b82091c6b3a660868f27f}
       \strng{authorfullhashraw}{fd0c4ed7e01b82091c6b3a660868f27f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{booktitle}{Advances in {{Neural Information Processing Systems}} ({{NeurIPS}})}
       \field{internalsortvolume}{33}
@@ -1506,67 +1588,6 @@
       \field{year}{2020}
       \field{volume}{33}
       \range{volume}{1}
-    \endentry
-    \entry{dnaMotifTokenizer2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
-           family={authors},
-           familyi={a\bibinitperiod},
-           given={Anonymous},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \field{extraname}{4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{month}{12}
-      \field{note}{arXiv:2512.17126}
-      \field{title}{{{DNAMotifTokenizer}}: Towards Biologically Informed Tokenization of Genomic Sequences}
-      \field{year}{2025}
-      \verb{eprint}
-      \verb 2512.17126
-      \endverb
-    \endentry
-    \entry{guidedTokenization2026}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
-           family={authors},
-           familyi={a\bibinitperiod},
-           given={Anonymous},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {bioRxiv}%
-      }
-      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
-      \field{extraname}{5}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{2}
-      \field{title}{Guided Tokenization and Domain Knowledge Enhance Genomic Language Models' Performance}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.64898/2026.02.16.706213
-      \endverb
     \endentry
     \entry{gresovaGenomicBenchmarksCollection2023}{article}{useauthor=false}{}
       \name{author}{5}{}{%
@@ -1600,8 +1621,8 @@
       \strng{authornamehash}{5d1bc383092b875d01f425dfa107594a}
       \strng{authorfullhash}{45d915fe4abb8943b8419b7b2f0ea0e6}
       \strng{authorfullhashraw}{45d915fe4abb8943b8419b7b2f0ea0e6}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{internalsortvolume}{24}
       \field{journaltitle}{BMC Genomic Data}
@@ -1754,50 +1775,6 @@
       \field{year}{2021}
       \verb{eprint}
       \verb 2104.09864
-      \endverb
-    \endentry
-    \entry{rosenbergPatternsTransitionalMutation2003}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=889627c9c6eeebabddcce00ecc1173bc}{%
-           family={Rosenberg},
-           familyi={R\bibinitperiod},
-           given={Michael\bibnamedelima S.},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=5aa402093cd9a59edc518272a396615c}{%
-           family={Subramanian},
-           familyi={S\bibinitperiod},
-           given={Sankar},
-           giveni={S\bibinitperiod}}}%
-        {{hash=f5c6ef9d2cdee2e1c059473af1f0536d}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Sudhir},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{80378ac9714712c57af727a55f338923}
-      \strng{fullhash}{80378ac9714712c57af727a55f338923}
-      \strng{fullhashraw}{80378ac9714712c57af727a55f338923}
-      \strng{bibnamehash}{80378ac9714712c57af727a55f338923}
-      \strng{authorbibnamehash}{80378ac9714712c57af727a55f338923}
-      \strng{authornamehash}{80378ac9714712c57af727a55f338923}
-      \strng{authorfullhash}{80378ac9714712c57af727a55f338923}
-      \strng{authorfullhashraw}{80378ac9714712c57af727a55f338923}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{internalsortvolume}{20}
-      \field{journaltitle}{Molecular Biology and Evolution}
-      \field{title}{Patterns of Transitional Mutation Biases Within and Among Mammalian Genomes}
-      \field{year}{2003}
-      \field{number}{6}
-      \range{number}{1}
-      \field{pages}{988\bibrangedash 993}
-      \range{pages}{6}
-      \field{volume}{20}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1093/molbev/msg113
       \endverb
     \endentry
     \entry{bengioEstimatingPropagatingGradients2013}{misc}{}{}
@@ -1983,89 +1960,207 @@
       \verb 10.1093/nar/gku1111
       \endverb
     \endentry
-    \entry{frankishGENCODE2019}{article}{useauthor=false}{}
+    \entry{tokenizationGenomicsReview2025}{article}{useauthor=false}{}
       \true{moreauthor}
-      \name{author}{6}{}{%
-        {{hash=717e5d7add1371c67cd7e2ea5f164e4b}{%
-           family={Frankish},
-           familyi={F\bibinitperiod},
-           given={Adam},
-           giveni={A\bibinitperiod}}}%
-        {{hash=46ff3164c5acc63a76acba40e535237e}{%
-           family={Diekhans},
-           familyi={D\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-        {{hash=16789c47bb7017d74da7db150688433c}{%
-           family={Ferreira},
-           familyi={F\bibinitperiod},
-           given={Ana-Maria},
-           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
-        {{hash=95529f9d43ec4e826ccb5d9c4e0a0ec0}{%
-           family={Johnson},
-           familyi={J\bibinitperiod},
-           given={Rory},
-           giveni={R\bibinitperiod}}}%
-        {{hash=5cc278d75e798e43f475ec264656a2e2}{%
-           family={Jungreis},
-           familyi={J\bibinitperiod},
-           given={Irwin},
-           giveni={I\bibinitperiod}}}%
-        {{hash=b3b46cf4b80046fdfed307d6be1d80f0}{%
-           family={Loveland},
-           familyi={L\bibinitperiod},
-           given={Jane},
+      \name{author}{1}{}{%
+        {{hash=726c2a48dc7d072bc371b92fc2321aaa}{%
+           family={Clauwaert},
+           familyi={C\bibinitperiod},
+           given={Jim},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{authorbibnamehash}{da5682f1bbfc16178eb649556fc500ca}
-      \strng{authornamehash}{da5682f1bbfc16178eb649556fc500ca}
-      \strng{authorfullhash}{c2b193dd4efc00f415364984e494c071}
-      \strng{authorfullhashraw}{c2b193dd4efc00f415364984e494c071}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \strng{authorbibnamehash}{f7f67042f33bb542dd085540e91a246a}
+      \strng{authornamehash}{f7f67042f33bb542dd085540e91a246a}
+      \strng{authorfullhash}{f7f67042f33bb542dd085540e91a246a}
+      \strng{authorfullhashraw}{f7f67042f33bb542dd085540e91a246a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{internalsortvolume}{47}
-      \field{journaltitle}{Nucleic Acids Research}
-      \field{title}{{{GENCODE}} Reference Annotation for the Human and Mouse Genomes}
-      \field{year}{2019}
-      \field{number}{D1}
-      \range{number}{1}
-      \field{pages}{D766\bibrangedash D773}
-      \range{pages}{-1}
-      \field{volume}{47}
-      \range{volume}{1}
+      \field{journaltitle}{Computational and Structural Biotechnology Journal}
+      \field{title}{Tokenization and Deep Learning Architectures in Genomics: A Comprehensive Review}
+      \field{year}{2025}
+      \true{nocite}
       \verb{doi}
-      \verb 10.1093/nar/gky955
+      \verb 10.1016/j.csbj.2025.07.038
       \endverb
     \endentry
-    \entry{encodeExpandedRegistry2024}{article}{}{}
+    \entry{dnachunkerLearnableTokenization2026}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=1fbb5d2ef5829f013caaa5f390fefa5e}{%
-           family={{ENCODE Project Consortium}},
-           familyi={E\bibinitperiod}}}%
+        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
+           family={authors},
+           familyi={a\bibinitperiod},
+           given={Anonymous},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{1fbb5d2ef5829f013caaa5f390fefa5e}
-      \strng{fullhash}{1fbb5d2ef5829f013caaa5f390fefa5e}
-      \strng{fullhashraw}{1fbb5d2ef5829f013caaa5f390fefa5e}
-      \strng{bibnamehash}{1fbb5d2ef5829f013caaa5f390fefa5e}
-      \strng{authorbibnamehash}{1fbb5d2ef5829f013caaa5f390fefa5e}
-      \strng{authornamehash}{1fbb5d2ef5829f013caaa5f390fefa5e}
-      \strng{authorfullhash}{1fbb5d2ef5829f013caaa5f390fefa5e}
-      \strng{authorfullhashraw}{1fbb5d2ef5829f013caaa5f390fefa5e}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{internalsortvolume}{625}
-      \field{journaltitle}{Nature}
-      \field{title}{An Expanded Registry of Candidate Cis-Regulatory Elements for Studying Transcriptional Regulation}
-      \field{year}{2024}
-      \field{pages}{857\bibrangedash 867}
-      \range{pages}{11}
-      \field{volume}{625}
-      \range{volume}{1}
+      \field{eprinttype}{arXiv}
+      \field{month}{1}
+      \field{note}{arXiv:2601.03019}
+      \field{title}{{{DNAChunker}}: Learnable Tokenization for {{DNA}} Language Models}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2601.03019
+      \endverb
+    \endentry
+    \entry{mergeDNAContextAware2026}{inproceedings}{useauthor=false}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=aaf82b828c51f08749f4d70b2a2f681a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zicheng},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{e46f4c60d447cdb04bd39bebcee6239b}
+      \strng{authornamehash}{e46f4c60d447cdb04bd39bebcee6239b}
+      \strng{authorfullhash}{e46f4c60d447cdb04bd39bebcee6239b}
+      \strng{authorfullhashraw}{e46f4c60d447cdb04bd39bebcee6239b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {{AAAI}} Conference on Artificial Intelligence}
+      \field{note}{AAAI 2026, Oral}
+      \field{title}{{{MergeDNA}}: Context-Aware Genome Modeling with Dynamic Tokenization through Token Merging}
+      \field{year}{2026}
+      \true{nocite}
       \verb{doi}
-      \verb 10.1038/s41586-024-07105-6
+      \verb 10.1609/aaai.v40i1.37032
+      \endverb
+    \endentry
+    \entry{evoLenEvolutionGuided2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
+           family={authors},
+           familyi={a\bibinitperiod},
+           given={Anonymous},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{month}{4}
+      \field{note}{arXiv:2604.08698}
+      \field{title}{{{EvoLen}}: Evolution-Guided Tokenization for {{DNA}} Language Model}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2604.08698
+      \endverb
+    \endentry
+    \entry{dnaMotifTokenizer2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
+           family={authors},
+           familyi={a\bibinitperiod},
+           given={Anonymous},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{month}{12}
+      \field{note}{arXiv:2512.17126}
+      \field{title}{{{DNAMotifTokenizer}}: Towards Biologically Informed Tokenization of Genomic Sequences}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{eprint}
+      \verb 2512.17126
+      \endverb
+    \endentry
+    \entry{patchDNA2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
+           family={authors},
+           familyi={a\bibinitperiod},
+           given={Anonymous},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ICLR 2026}
+      \field{title}{{{PatchDNA}}: A Flexible and Biologically-Informed Alternative to Tokenization for {{DNA}}}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1101/2025.11.28.691095
+      \endverb
+    \endentry
+    \entry{guidedTokenization2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=44597582d8b085e0a23bcbbc90d5fa6f}{%
+           family={authors},
+           familyi={a\bibinitperiod},
+           given={Anonymous},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {bioRxiv}%
+      }
+      \strng{namehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{fullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{bibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorbibnamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authornamehash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhash}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \strng{authorfullhashraw}{44597582d8b085e0a23bcbbc90d5fa6f}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Guided Tokenization and Domain Knowledge Enhance Genomic Language Models' Performance}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.64898/2026.02.16.706213
       \endverb
     \endentry
     \entry{bergmanEvolutionGermlineMutation2023}{article}{useauthor=false}{}

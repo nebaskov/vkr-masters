@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.21)  18 APR 2026 23:26
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.21)  19 APR 2026 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,8 +10,7 @@ L3 programming layer <2025-01-18>
 Document Class: extbook 1999/01/07 v1.4a NON-Standard LaTeX document class
 (/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/size14.clo
 File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/exscale.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -32,13 +31,10 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen142
-)
-(./preamble.tex
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (./preamble.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontsp
+ec.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count267
@@ -49,7 +45,6 @@ File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
 X
@@ -67,11 +62,9 @@ X
 \l__fontspec_tmpa_dim=\dimen143
 \l__fontspec_tmpb_dim=\dimen144
 \l__fontspec_tmpc_dim=\dimen145
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
 Package fontspec Info: 
 (fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
@@ -90,17 +83,13 @@ Package fontspec Info:
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
 
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
@@ -116,11 +105,9 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen152
 \Gm@layoutvoffset=\dimen153
 \Gm@dimlist=\toks18
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip51
@@ -138,8 +125,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip63
 \f@nch@widthR=\skip64
 \@temptokenb=\toks19
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box53
 \beforetitleunit=\skip65
@@ -150,8 +136,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen156
 \titlewidthlast=\dimen157
 \titlewidthfirst=\dimen158
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip67
@@ -190,9 +175,8 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip98
 \cfttabindent=\skip99
 \cfttabnumwidth=\skip100
-)
-(./config-lists.tex
-(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (./config-lists.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/en
+umitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip101
 \enit@outerparindent=\dimen159
@@ -200,9 +184,8 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box54
 \enit@count@id=\count286
 \enitdp@description=\count287
-))
-(./config-formulas.tex
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty
+)) (./config-formulas.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/
+amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks22
 \thm@bodyfont=\toks23
@@ -213,25 +196,20 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip103
 \thm@headsep=\skip104
 \dth@everypar=\toks27
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip105
-
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks28
 \ex@=\dimen160
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen161
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count288
@@ -281,10 +259,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks32
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
@@ -294,9 +270,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 \c@theorem=\count300
-)
-(./config-tables.tex
-(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (./config-tables.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/b
+ooktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen169
 \lightrulewidth=\dimen170
@@ -315,17 +290,14 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count303
 \@lastruleclass=\count304
 \@thisrulewidth=\dimen181
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip108
 \multirow@cntb=\count305
 \multirow@dima=\skip109
 \bigstrutjot=\dimen182
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen183
@@ -340,8 +312,7 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count306
 \c@continuedfloat=\count307
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTleft=\skip110
 \LTright=\skip111
@@ -359,66 +330,50 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \c@LT@tables=\count311
 \c@LT@chunks=\count312
 \LT@p@ftn=\toks33
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count313
-))
-(./config-images.tex
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+)) (./config-images.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/
+graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen192
 \Gin@req@width=\dimen193
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
-
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
-
 (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count314
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -481,18 +436,15 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@mincompwidth=\count360
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'gost-numeric.dbx' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-gost/gost-numeric.dbx
 File: gost-numeric.dbx 2023/04/25 v1.24 biblatex-gost data model
 Package biblatex Info: Trying to load biblatex-gost data model...
 Package biblatex Info: ... file 'biblatex-gost.dbx' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.dbx
 File: biblatex-gost.dbx 2023/04/25 v1.24 biblatex-gost data model
 ))
@@ -607,13 +559,11 @@ Package biblatex Info: ... file 'blx-unicode.def' found.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 \c@textcitecount=\count451
@@ -632,17 +582,14 @@ File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'gost-numeric'...
 Package biblatex Info: ... file 'gost-numeric.bbx' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-gost/gost-numeric.bbx
 File: gost-numeric.bbx 2023/04/25 v1.24 biblatex-gost styles
 Package biblatex Info: Trying to load bibliography style 'gost-standard'...
 Package biblatex Info: ... file 'gost-standard.bbx' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-gost/gost-standard.bbx
 File: gost-standard.bbx 2023/04/25 v1.24 biblatex-gost styles
 Package biblatex Info: Trying to load biblatex-gost generic definitions...
 Package biblatex Info: ... file 'biblatex-gost.def' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-gost/biblatex-gost.def
 File: biblatex-gost.def 2023/04/25 v1.24 biblatex-gost styles
 )
@@ -654,11 +601,10 @@ Package biblatex Info: Redefining autocite command 'superscript'.
 ))
 Package biblatex Info: Trying to load citation style 'gost-numeric'...
 Package biblatex Info: ... file 'gost-numeric.cbx' found.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-gost/gost-numeric.cbx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-gost/gost-numeric.cbx
 File: gost-numeric.cbx 2023/04/25 v1.24 biblatex-gost styles
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
 \c@cbx@tempcnta=\count463
@@ -679,7 +625,6 @@ Package biblatex Info: Redefining '\smartcites'.
 ))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
@@ -690,13 +635,11 @@ Package biblatex Info: ... and expl3
 (biblatex)             2025-01-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 )))
 \@quotelevel=\count467
 \@quotereset=\count468
-
 (./main.aux)
 \openout1 = `main.aux'.
 
@@ -780,7 +723,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 6.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 6.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -823,18 +765,15 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english' -> 'english-gost'...
 Package biblatex Info: ... file 'english-gost.lbx' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-gost/english-gost.lbx
 File: english-gost.lbx 2023/04/25 v1.24 biblatex-gost styles
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 ))
@@ -846,18 +785,20 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-
 (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
- (./main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+(./title_small.tex
 
+[1
+
+
+]) (./main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -869,33 +810,111 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- (./abbreviations.tex
+(./abbreviations.tex
 
 [2])
-Overfull \hbox (8.5688pt too wide) in paragraph at lines 6--26
-\TU/TimesNewRoman(0)/m/n/14.4 dDP — Differentiable Dynamic Programming (диффере
-нцируемое динамическое
- []
-
-
 
 [3
 
 ] (./terms.tex)
-Overfull \hbox (29.68486pt too wide) in paragraph at lines 7--30
-\TU/TimesNewRoman(0)/m/n/14.4 Мотив — короткий консервативный паттерн в ДНК, св
+Overfull \hbox (20.75726pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 Compression ratio (CR) - коэффициент сжатия после
+довательности, вычисляемый
+ []
+
+
+Overfull \hbox (45.6643pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 caQTL - вариант генома, статистически ассоциирова
+нный с изменением доступности
+ []
+
+
+Overfull \hbox (31.02405pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 cCREs - candidate cis-regulatory elements, кандид
+атные цис-регуляторные элементы
+ []
+
+
+Overfull \hbox (15.99034pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 ClinVar - база данных клинически интерпретированн
+ых генетических вариантов 
+ []
+
+
+Overfull \hbox (9.74753pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 EPDnew - Eukaryotic Promoter Database, база аннот
+ированных эукариотических
+ []
+
+
+Overfull \hbox (17.99774pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 GENCODE - референсная аннотация генов и транскрип
+тов для геномов человека
+ []
+
+
+Overfull \hbox (85.80803pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 LINE - long interspersed nuclear elements, класс 
+длинных повторяющихся ретротранспозонов 
+ []
+
+
+Overfull \hbox (31.56549pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 Hard-forward / soft-backward - схема обучения, в 
+которой прямой проход использует
+ []
+
+
+Overfull \hbox (0.93056pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 NTP (next nucleotide prediction) - задача предска
+зания следующего нуклеотида
+ []
+
+
+Overfull \hbox (19.46002pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 phastCons - phylogenetic hidden Markov model cons
+ervation scores, количественная
+ []
+
+
+Overfull \hbox (89.5838pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 SINE - short interspersed nuclear elements, класс
+ коротких повторяющихся ретротранспозонов 
+ []
+
+
+Overfull \hbox (20.08017pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 Мотив - короткий консервативный паттерн в ДНК, св
 язанный с функциональным
  []
 
 
-Overfull \hbox (11.92627pt too wide) in paragraph at lines 7--30
-\TU/TimesNewRoman(0)/m/n/14.4 Токенизация — процесс разбиения входной последова
+Overfull \hbox (27.14047pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 Накопительное состояние токена - дополнительное п
+редставление, агрегирующее
+ []
+
+
+Overfull \hbox (0.49466pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 Нуклеотид - мономерная единица ДНК (аденин A, тим
+ин T, цитозин C, гуанин
+ []
+
+
+Overfull \hbox (32.01782pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 Спан - непрерывный диапазон позиций в исходной по
+следовательности, покрытый
+ []
+
+
+Overfull \hbox (2.32158pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 Токенизация - процесс разбиения входной последова
 тельности на дискретные
  []
 
 
-Overfull \hbox (90.26938pt too wide) in paragraph at lines 7--30
-\TU/TimesNewRoman(0)/m/n/14.4 Токенизатор — модуль, преобразующий входную после
+Overfull \hbox (80.66469pt too wide) in paragraph at lines 9--33
+\TU/TimesNewRoman(0)/m/n/14.4 Токенизатор - модуль, преобразующий входную после
 довательность в последовательность
  []
 
@@ -904,805 +923,1388 @@ Overfull \hbox (90.26938pt too wide) in paragraph at lines 7--30
 [4
 
 
-] (./intro.tex
-Underfull \hbox (badness 2644) in paragraph at lines 5--6
-[]\TU/TimesNewRoman(0)/m/n/14.4 За последние несколько лет глубокое обучение пр
-ишло в геномику в
+]
+
+[5] (./intro.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--20
+[]\TU/TimesNewRoman(0)/m/n/14.4 За последние годы методы глубокого обучения пол
+учили широкое
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 7--8
-\TU/TimesNewRoman(0)/m/n/14.4 разбить на дискретные единицы — токены. В геномик
-е используют
+Underfull \hbox (badness 2503) in paragraph at lines 5--20
+\TU/TimesNewRoman(0)/m/n/14.4 распространение в задачах геномики, в том числе в
+ форме языковых
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 7--8
-\TU/TimesNewRoman(0)/m/n/14.4 A, T, C, G — отдельный токен), фиксированные $\OM
-L/cmm/m/it/14.4 k$\TU/TimesNewRoman(0)/m/n/14.4 -меры и BPE [7],
+Underfull \hbox (badness 3354) in paragraph at lines 5--20
+\TU/TimesNewRoman(0)/m/n/14.4 самосупервизионного обучения, после чего полученн
+ые представления
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 9--10
-[]\TU/TimesNewRoman(0)/m/n/14.4 Проблема в том, что геном неоднороден. Регулято
-рные элементы —
+Underfull \hbox (badness 10000) in paragraph at lines 21--31
+\TU/TimesNewRoman(0)/m/n/14.4 входной последовательности. До подачи данных в мо
+дель ДНК-
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 9--10
-\TU/TimesNewRoman(0)/m/n/14.4 промоторы, энхансеры, сайты связывания транскрипц
-ионных факторов
+Underfull \hbox (badness 1163) in paragraph at lines 21--31
+\TU/TimesNewRoman(0)/m/n/14.4 последовательность должна быть разбита на дискрет
+ные единицы. На
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 9--10
-\TU/TimesNewRoman(0)/m/n/14.4 А межгенные области и повторы занимают большую ча
-сть генома и
+Underfull \hbox (badness 2653) in paragraph at lines 21--31
+\TU/TimesNewRoman(0)/m/n/14.4 разбиение (один нуклеотид — один токен), фиксиров
+анные $\OML/cmm/m/it/14.4 k$\TU/TimesNewRoman(0)/m/n/14.4 -меры и
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 9--10
-\TU/TimesNewRoman(0)/m/n/14.4 разрывают функциональные мотивы на произвольных г
-раницах. BPE
+Underfull \hbox (badness 1997) in paragraph at lines 32--52
+[]\TU/TimesNewRoman(0)/m/n/14.4 Данная постановка ограничивает качество модели,
+ поскольку геномная
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 9--10
-\TU/TimesNewRoman(0)/m/n/14.4 оптимизирует сжатие по частотности подстрок, а не
- по биологической
- []
-
-
-Underfull \hbox (badness 3417) in paragraph at lines 9--10
-\TU/TimesNewRoman(0)/m/n/14.4 около 45% генома [10], получают компактные токены
-, а уникальные
+Underfull \hbox (badness 3713) in paragraph at lines 32--52
+\TU/TimesNewRoman(0)/m/n/14.4 участках, где критична точная позиционная информа
+ция. При этом
  []
 
 
 
-[5
+[6
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 2376) in paragraph at lines 53--67
+\TU/TimesNewRoman(0)/m/n/14.4 ограниченное использование биологической структур
+ы при построении
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 53--67
+\TU/TimesNewRoman(0)/m/n/14.4 слияние, дифференцируемое DP и интеграцию биологи
+ческих приоров;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--72
+[]\TU/TimesNewRoman(0)/m/n/14.4 Целью настоящей работы является разработка мето
+да адаптивной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--72
+\TU/TimesNewRoman(0)/m/n/14.4 токенизации ДНК-последовательностей, основанного 
+на рекурсивном
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 []\TU/TimesNewRoman(0)/m/n/14.4 разработать архитектуру адаптивного токенизатор
 а на основе
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 \TU/TimesNewRoman(0)/m/n/14.4 рекурсивного гейтированного слияния с дифференцир
 уемым
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 \TU/TimesNewRoman(0)/m/n/14.4 динамическим программированием и интеграцией биол
 огических
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 \TU/TimesNewRoman(0)/m/n/14.4 приоров (оценки консервативности, мотивы транскри
 пционных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
 []\TU/TimesNewRoman(0)/m/n/14.4 интегрировать разработанный метод в языковую мо
 дель ДНК с
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-[]\TU/TimesNewRoman(0)/m/n/14.4 Объект исследования — языковые модели для нукле
-отидных
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-[]\TU/TimesNewRoman(0)/m/n/14.4 Предмет исследования — методы адаптивной токени
-зации ДНК-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-[]\TU/TimesNewRoman(0)/m/n/14.4 предложена архитектура адаптивного токенизатора
- на основе
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-[]\TU/TimesNewRoman(0)/m/n/14.4 разработан механизм интеграции биологических пр
-иоров (оценки
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-[]\TU/TimesNewRoman(0)/m/n/14.4 предложена составная функция потерь, объединяющ
-ая NTP с
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-\TU/TimesNewRoman(0)/m/n/14.4 регуляризаторами сжатия, энтропии решений, RC-сог
-ласованности
- []
-
-
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-\TU/TimesNewRoman(0)/m/n/14.4 может быть встроен как модуль предобработки в сущ
-ествующие
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 34--35
-\TU/TimesNewRoman(0)/m/n/14.4 с использованием PyTorch [27] и совместима с типо
-выми пайплайнами
- []
-
-) (./chapter1.tex
-Underfull \hbox (badness 1448) in paragraph at lines 36--1
-\TU/TimesNewRoman(0)/m/n/14.4 механизм дифференцируемого выбора пар, функцию по
-терь, стратегию
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
+\TU/TimesNewRoman(0)/m/n/14.4 каузальным декодером, обеспечивающим предсказание
+ на уровне
  []
 
 
 
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+[]\TU/TimesNewRoman(0)/m/n/14.4 В качестве объекта исследования выступают языко
+вые модели для
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 92--95
+[]\TU/TimesNewRoman(0)/m/n/14.4 В качестве предмета исследования рассматриваютс
+я методы адаптивной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--110
+[]\TU/TimesNewRoman(0)/m/n/14.4 Научная новизна работы. Предложена архитектура 
+адаптивного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--110
+\TU/TimesNewRoman(0)/m/n/14.4 токенизатора на основе рекурсивного гейтированног
+о слияния с
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 96--110
+\TU/TimesNewRoman(0)/m/n/14.4 матрицы JASPAR [19]. Функция потерь объединяет NT
+P с четырьмя
+ []
+
+
+Underfull \hbox (badness 5787) in paragraph at lines 96--110
+\TU/TimesNewRoman(0)/m/n/14.4 регуляризаторами — сжатия, энтропии решений, RC-с
+огласованности
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
+[]\TU/TimesNewRoman(0)/m/n/14.4 Разработанный токенизатор реализован на Python/
+PyTorch [20] и
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 111--117
+\TU/TimesNewRoman(0)/m/n/14.4 встраивается в существующие пайплайны предобучени
+я DNA LM как
+ []
+
+) (./chapter1.tex
+Underfull \hbox (badness 2941) in paragraph at lines 118--1
+[]\TU/TimesNewRoman(0)/m/n/14.4 Структура работы включает введение, две главы, 
+заключение, список
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--1
+\TU/TimesNewRoman(0)/m/n/14.4 обзор геномных языковых моделей, подходов к токен
+изации и
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 118--1
+\TU/TimesNewRoman(0)/m/n/14.4 существующих бенчмарков. Во второй главе описаны 
+предлагаемый
+ []
+
+
+
+[8]
 Chapter 1.
 
-Underfull \hbox (badness 1571) in paragraph at lines 3--4
+Underfull \hbox (badness 1571) in paragraph at lines 3--6
 []\TU/TimesNewRoman(0)/m/n/14.4 Настоящая глава охватывает три направления, на 
 пересечении которых
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 3--4
+Underfull \hbox (badness 3590) in paragraph at lines 3--6
 \TU/TimesNewRoman(0)/m/n/14.4 находится данное исследование: геномные языковые 
 модели, методы
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 7--8
-\TU/TimesNewRoman(0)/m/n/14.4 в режиме самосупервизии и формируют представления
-, которые затем
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+ |[]\TU/TimesNewRoman(0)/b/n/14.4 Теоретические основы ДНК для проектирования
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 7--8
-\TU/TimesNewRoman(0)/m/n/14.4 порядка $\OT1/cmr/m/n/14.4 3[]1 \OMS/cmsy/m/n/14.
-4 ^^B \OT1/cmr/m/n/14.4 10[]$ \TU/TimesNewRoman(0)/m/n/14.4 пар оснований [28],
- причём значительная часть
+Underfull \hbox (badness 10000) in paragraph at lines 9--15
+[]\TU/TimesNewRoman(0)/m/n/14.4 При разработке токенизатора для ДНК критично уч
+итывать, что
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 15--16
-\TU/TimesNewRoman(0)/m/n/14.4 мерами. Масштаб помогает на downstream-задачах, н
-о фиксированные
+Underfull \hbox (badness 10000) in paragraph at lines 9--15
+\TU/TimesNewRoman(0)/m/n/14.4 биологическая последовательность не является одно
+родной строкой
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-\TU/TimesNewRoman(0)/m/n/14.4 6-меры остаются ограничением: границы $\OML/cmm/m
-/it/14.4 k$\TU/TimesNewRoman(0)/m/n/14.4 -меров не совпадают с
+Underfull \hbox (badness 7012) in paragraph at lines 16--25
+\TU/TimesNewRoman(0)/m/n/14.4 масштаб задачи: речь идёт о миллиардах нуклеотидо
+в с большим
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 17--18
-[]\TU/TimesNewRoman(0)/m/n/14.4 GROVER [31] обучается на человеческом геноме с 
-BPE-токенизацией
+Underfull \hbox (badness 2990) in paragraph at lines 16--25
+\TU/TimesNewRoman(0)/m/n/14.4 было зафиксировано, что около 45% последовательно
+сти  составляют
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 17--18
-\TU/TimesNewRoman(0)/m/n/14.4 и посимвольной инициализацией. Интересно, что выу
-ченный BPE-
+Underfull \hbox (badness 7099) in paragraph at lines 26--31
+\TU/TimesNewRoman(0)/m/n/14.4 но и на дальние enhancer–promoter взаимодействия,
+ работающие на
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 21--22
-[]\TU/TimesNewRoman(0)/m/n/14.4 State Space Models (SSM) [32] — альтернатива ме
-ханизму внимания
+Underfull \hbox (badness 1248) in paragraph at lines 32--39
+\TU/TimesNewRoman(0)/m/n/14.4 цис-регуляторные элементы в масштабе генома; GENC
+ODE [24] задаёт
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--46
+\TU/TimesNewRoman(0)/m/n/14.4 элементы по межвидовым выравниваниям [18] обычно 
+отражают
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--46
+\TU/TimesNewRoman(0)/m/n/14.4 функционально значимые участки, а резкие переходы
+ уровня
  []
 
 
 
-[8
+[9
 
 ]
-Underfull \hbox (badness 5022) in paragraph at lines 23--24
-[]\TU/TimesNewRoman(0)/m/n/14.4 HyenaDNA [1] построен на архитектуре Hyena (дли
-нные свёртки) и
+Underfull \hbox (badness 10000) in paragraph at lines 47--56
+[]\TU/TimesNewRoman(0)/m/n/14.4 Наконец, при проектировании токенизатора необхо
+димо учитывать
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 23--24
-\TU/TimesNewRoman(0)/m/n/14.4 работает посимвольно с окном до $\OT1/cmr/m/n/14.
-4 10[]$ \TU/TimesNewRoman(0)/m/n/14.4 нуклеотидов. Посимвольная
+Underfull \hbox (badness 2495) in paragraph at lines 47--56
+\TU/TimesNewRoman(0)/m/n/14.4 направленность и двуцепочечную природу ДНК. Поряд
+ок нуклеотидов
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 25--26
-[]\TU/TimesNewRoman(0)/m/n/14.4 Caduceus [3] добавляет к SSM два свойства: двун
-аправленность и
+Underfull \hbox (badness 3323) in paragraph at lines 47--56
+\TU/TimesNewRoman(0)/m/n/14.4 мутационного процесса [25], тогда как многие регу
+ляторные сигналы
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 25--26
-\TU/TimesNewRoman(0)/m/n/14.4 RC-эквивариантность. ДНК — двуцепочечная молекула
-, и многие
+Underfull \hbox (badness 10000) in paragraph at lines 47--56
+\TU/TimesNewRoman(0)/m/n/14.4 должны корректно интерпретироваться и на комплеме
+нтарной цепи.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\TU/TimesNewRoman(0)/m/n/14.4 функциональные элементы (мотивы TF, промоторы) ра
-ботают на
+Underfull \hbox (badness 10000) in paragraph at lines 47--56
+\TU/TimesNewRoman(0)/m/n/14.4 В совокупности эти свойства формируют теоретическ
+ие требования
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\TU/TimesNewRoman(0)/m/n/14.4 обеих цепях. RC-эквивариантная архитектура гарант
-ирует, что
+Underfull \hbox (badness 4479) in paragraph at lines 47--56
+\TU/TimesNewRoman(0)/m/n/14.4 к современному токенизатору: контекстная адаптивн
+ость, сохранение
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 31--32
-[]\TU/TimesNewRoman(0)/m/n/14.4 HybriDNA [34] совмещает блоки Transformer и Mam
-ba-2 [35], получая
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 31--32
-\TU/TimesNewRoman(0)/m/n/14.4 выразительность attention и эффективность SSM в о
-дной архитектуре.
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 31--32
-\TU/TimesNewRoman(0)/m/n/14.4 Модель посимвольная, и при меньшем числе параметр
-ов достигает
- []
-
-
-Underfull \hbox (badness 4967) in paragraph at lines 33--34
-\TU/TimesNewRoman(0)/m/n/14.4 регуляторных вариантов — от уровня нуклеотидов до
- хромосомного
- []
-
-
-Underfull \hbox (badness 3826) in paragraph at lines 39--40
-\TU/TimesNewRoman(0)/m/n/14.4 до $\OT1/cmr/m/n/14.4 10[]$ \TU/TimesNewRoman(0)/
-m/n/14.4 в HyenaDNA. Это логично: взаимодействия вроде энхансер–
- []
-
-
-
-[9]
-Underfull \hbox (badness 3492) in paragraph at lines 43--44
-\TU/TimesNewRoman(0)/m/n/14.4 адаптивной токенизации, которая сжимала бы послед
-овательность без
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-[]\TU/TimesNewRoman(0)/m/n/14.4 Разбиение на подстроки длины $\OML/cmm/m/it/14.
-4 k$ \TU/TimesNewRoman(0)/m/n/14.4 сокращает вход в $\OML/cmm/m/it/14.4 k$ \TU/
-TimesNewRoman(0)/m/n/14.4 раз (при
- []
-
-
-Underfull \hbox (badness 5878) in paragraph at lines 56--57
-\TU/TimesNewRoman(0)/m/n/14.4 неперекрывающихся $\OML/cmm/m/it/14.4 k$\TU/Times
-NewRoman(0)/m/n/14.4 -мерах). Использовалось в DNABERT ($\OML/cmm/m/it/14.4 k \
-OT1/cmr/m/n/14.4 =
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 58--59
-\TU/TimesNewRoman(0)/m/n/14.4 произвольны. Один и тот же мотив может быть разби
-т по-разному в
- []
-
-
-Underfull \hbox (badness 7186) in paragraph at lines 62--63
-[]\TU/TimesNewRoman(0)/m/n/14.4 BPE [7] строит словарь итеративным слиянием наи
-более частотных
- []
-
-
-Underfull \hbox (badness 7832) in paragraph at lines 62--63
-\TU/TimesNewRoman(0)/m/n/14.4 пар символов. Используется в DNABERT-2 [2] и GROV
-ER [31].
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 62--63
-\TU/TimesNewRoman(0)/m/n/14.4 Токены получаются переменной длины, что частично 
-решает проблему
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 64--65
-[]\TU/TimesNewRoman(0)/m/n/14.4 Однако BPE оптимизирует статистическое сжатие, 
-а не биологическую
- []
-
-
-Underfull \hbox (badness 4699) in paragraph at lines 64--65
-\TU/TimesNewRoman(0)/m/n/14.4 высокой частотности. Уникальные регуляторные элем
-енты остаются
+Underfull \hbox (badness 4872) in paragraph at lines 87--93
+[]\TU/TimesNewRoman(0)/m/n/14.4 Иной масштаб демонстрирует Nucleotide Transform
+er [4]: $\OT1/cmr/m/n/14.4 2[]5 \OMS/cmsy/m/n/14.4 ^^B \OT1/cmr/m/n/14.4 10[]$
  []
 
 
 
 [10]
-Underfull \hbox (badness 4328) in paragraph at lines 70--71
-\TU/TimesNewRoman(0)/m/n/14.4 предлагает биологически обоснованные правила сегм
-ентации, но они
+Underfull \hbox (badness 5022) in paragraph at lines 108--115
+[]\TU/TimesNewRoman(0)/m/n/14.4 HyenaDNA [1] построен на архитектуре Hyena (дли
+нные свёртки) и
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 79--80
-[]\TU/TimesNewRoman(0)/m/n/14.4 Charformer [22] вводит Gradient-Based Subword T
-okenization (GBST) —
+Underfull \hbox (badness 10000) in paragraph at lines 108--115
+\TU/TimesNewRoman(0)/m/n/14.4 длинные входные последовательности требуют специа
+лизированной
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 79--80
-\TU/TimesNewRoman(0)/m/n/14.4 модуль мягкой токенизации, обучаемый совместно с 
-моделью. GBST
+Underfull \hbox (badness 7203) in paragraph at lines 116--123
+\TU/TimesNewRoman(0)/m/n/14.4 ДНК является двуцепочечной молекулой, и многие фу
+нкциональные
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 79--80
-\TU/TimesNewRoman(0)/m/n/14.4 скоры. Ограничение — одноуровневая группировка бе
-з ограничения
+Underfull \hbox (badness 10000) in paragraph at lines 116--123
+\TU/TimesNewRoman(0)/m/n/14.4 элементы (мотивы TF, промоторы) работают на обеих
+ цепях; RC-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-[]\TU/TimesNewRoman(0)/m/n/14.4 Funnel Transformer [37] применяет stride poolin
-g для постепенного
+Underfull \hbox (badness 3209) in paragraph at lines 116--123
+\TU/TimesNewRoman(0)/m/n/14.4 эквивариантная архитектура гарантирует, что предс
+тавления прямой и
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 85--86
-[]\TU/TimesNewRoman(0)/m/n/14.4 Byte Latent Transformer (BLT) [20] от Meta FAIR
- ближе всего к идее
+Underfull \hbox (badness 6995) in paragraph at lines 116--123
+\TU/TimesNewRoman(0)/m/n/14.4 комплементарной цепей связаны фиксированным преоб
+разованием —
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 116--123
+\TU/TimesNewRoman(0)/m/n/14.4 данное свойство является сильным индуктивным смещ
+ением, которое
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 133--143
+\TU/TimesNewRoman(0)/m/n/14.4 к геномике: посимвольная модель с меньшим числом 
+параметров, чем
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 133--143
+\TU/TimesNewRoman(0)/m/n/14.4 у аналогов, достигает конкурентных результатов. Л
+огика гибридной
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--143
+\TU/TimesNewRoman(0)/m/n/14.4 взаимозависимости через полный self-attention, то
+гда как Mamba-2
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 133--143
+\TU/TimesNewRoman(0)/m/n/14.4 обрабатывает длинный контекст линейно. Чередовани
+е позволяет не
  []
 
 
 
 [11]
-Underfull \hbox (badness 1776) in paragraph at lines 93--94
-\TU/TimesNewRoman(0)/m/n/14.4 свёрточных экспертов с деформируемыми свёртками. 
-Выбор эксперта
+Underfull \hbox (badness 2435) in paragraph at lines 159--166
+\TU/TimesNewRoman(0)/m/n/14.4 DNABERT — и $\OT1/cmr/m/n/14.4 10[]$ \TU/TimesNew
+Roman(0)/m/n/14.4 в HyenaDNA. Это не случайно: взаимодействия
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 97--98
-\TU/TimesNewRoman(0)/m/n/14.4 совместно с языковой моделью. Концептуально близо
-к к обучаемой
+Underfull \hbox (badness 1616) in paragraph at lines 159--166
+\TU/TimesNewRoman(0)/m/n/14.4 энхансер–промотор [22] работают на расстояниях в 
+десятки тысяч пар
  []
 
 
-Underfull \hbox (badness 4765) in paragraph at lines 99--100
-\TU/TimesNewRoman(0)/m/n/14.4 консервативности. Высоко консервативные регионы п
-олучают более
+Underfull \hbox (badness 1394) in paragraph at lines 167--175
+\TU/TimesNewRoman(0)/m/n/14.4 Посимвольная токенизация потолка такого рода не с
+оздаёт, но платить
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-\TU/TimesNewRoman(0)/m/n/14.4 или детерминистический механизм определения грани
-ц, наличие
+Underfull \hbox (badness 1558) in paragraph at lines 176--182
+\TU/TimesNewRoman(0)/m/n/14.4 более сильной архитектурой. В связи с этим рассма
+тривается вопрос
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 176--182
+\TU/TimesNewRoman(0)/m/n/14.4 к содержанию последовательности в процессе совмес
+тного обучения с
  []
 
 
 
 [12]
-Underfull \hbox (badness 1968) in paragraph at lines 109--110
-[]\TU/TimesNewRoman(0)/m/n/14.4 Ни одна из рассмотренных работ не объединяет вс
-е четыре свойства:
+Underfull \hbox (badness 5563) in paragraph at lines 187--196
+[]\TU/TimesNewRoman(0)/m/n/14.4 Посимвольная схема предполагает, что каждый нук
+леотид (A, T, C,
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 109--110
-\TU/TimesNewRoman(0)/m/n/14.4 рекурсивное многоуровневое слияние, дифференцируе
-мое ограничение
+Underfull \hbox (badness 5862) in paragraph at lines 187--196
+\TU/TimesNewRoman(0)/m/n/14.4 G) кодируется как отдельный токен. Данный подход 
+обеспечивает
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-\TU/TimesNewRoman(0)/m/n/14.4 непересечения через DP, интеграцию биоприоров как
- обучаемого
+Underfull \hbox (badness 2005) in paragraph at lines 187--196
+\TU/TimesNewRoman(0)/m/n/14.4 naDNA [1], Caduceus [3] и Evo [5]. Ключевым недос
+татком данного
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 109--110
-\TU/TimesNewRoman(0)/m/n/14.4 индуктивного смещения и температурный annealing д
-ля минимизации
+Underfull \hbox (badness 2277) in paragraph at lines 197--205
+\TU/TimesNewRoman(0)/m/n/14.4 frame-shift, характерный для $\OML/cmm/m/it/14.4 
+k$\TU/TimesNewRoman(0)/m/n/14.4 -мерных схем, при котором один и тот
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-[]\TU/TimesNewRoman(0)/m/n/14.4 Для систематической оценки геномных моделей нуж
-ны
+Underfull \hbox (badness 1320) in paragraph at lines 197--205
+\TU/TimesNewRoman(0)/m/n/14.4 же мотив разбивается по-разному в зависимости от 
+стартовой позиции
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 118--119
-[]\TU/TimesNewRoman(0)/m/n/14.4 BEND [41] добавляет более биологически значимые
- задачи: структура
+Underfull \hbox (badness 10000) in paragraph at lines 208--212
+[]\TU/TimesNewRoman(0)/m/n/14.4 Разбиение на подстроки длины $\OML/cmm/m/it/14.
+4 k$ \TU/TimesNewRoman(0)/m/n/14.4 сокращает вход в $\OML/cmm/m/it/14.4 k$ \TU/
+TimesNewRoman(0)/m/n/14.4 раз при
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 120--121
-\TU/TimesNewRoman(0)/m/n/14.4 расширенном наборе задач. Результат примечателен:
- ни одна модель
+Underfull \hbox (badness 1371) in paragraph at lines 221--229
+[]\TU/TimesNewRoman(0)/m/n/14.4 BPE [7] итеративно сливает наиболее частотные п
+ары символов, строя
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 221--229
+\TU/TimesNewRoman(0)/m/n/14.4 словарь переменной длины. В геномных моделях это 
+используется в
  []
 
 
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-[]\TU/TimesNewRoman(0)/m/n/14.4 Появляющиеся работы по обучаемой токенизации ДН
-К (MxDNA,
+Underfull \hbox (badness 1371) in paragraph at lines 230--237
+[]\TU/TimesNewRoman(0)/m/n/14.4 Однако BPE оптимизирует статистическое сжатие, 
+а не биологическую
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 140--141
-\TU/TimesNewRoman(0)/m/n/14.4 MergeDNA, EvoLen и др.) решают отдельные аспекты 
-проблемы, но
+Underfull \hbox (badness 4765) in paragraph at lines 230--237
+\TU/TimesNewRoman(0)/m/n/14.4 информативность, и это подтверждается прикладными
+ наблюдениями.
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 140--141
-\TU/TimesNewRoman(0)/m/n/14.4 ни одна не объединяет рекурсивное слияние, диффер
-енцируемое DP и
+Underfull \hbox (badness 10000) in paragraph at lines 230--237
+\TU/TimesNewRoman(0)/m/n/14.4 Уникальные регуляторные элементы остаются фрагмен
+тированными.
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 240--250
+\TU/TimesNewRoman(0)/m/n/14.4 тогда как плотность функциональной информации в п
+ромоторе и в
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 240--250
+\TU/TimesNewRoman(0)/m/n/14.4 не доминирует на всех задачах. Eapen [11] предлаг
+ает биологически
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 251--263
+[]\TU/TimesNewRoman(0)/m/n/14.4 Рассмотрим конкретный пример, связанный с $\OML
+/cmm/m/it/14.4 k$\TU/TimesNewRoman(0)/m/n/14.4 -мерной токенизацией и
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 251--263
+\TU/TimesNewRoman(0)/m/n/14.4 медианной шириной мотива 12–15 п.н. [19]: CTCF ( 
+19 п.н.), GATA1
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 264--276
+\TU/TimesNewRoman(0)/m/n/14.4 подпоследовательности Alu и LINE-1 — как правило,
+ функционально
+ []
+
+
+
+[14]
+Underfull \hbox (badness 1565) in paragraph at lines 277--286
+[]\TU/TimesNewRoman(0)/m/n/14.4 Различие в функциональной нагрузке хорошо отраж
+ается через оценки
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--286
+\TU/TimesNewRoman(0)/m/n/14.4 эволюционной консервативности: метод phastCons, о
+снованный
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--286
+\TU/TimesNewRoman(0)/m/n/14.4 на филогенетической скрытой марковской модели по 
+межвидовым
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 277--286
+\TU/TimesNewRoman(0)/m/n/14.4 менее 0,1. Статический токенизатор не имеет досту
+па к данному
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 277--286
+\TU/TimesNewRoman(0)/m/n/14.4 сигналу: одинаковый бюджет токенов расходуется на
+ функционально
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 287--297
+[]\TU/TimesNewRoman(0)/m/n/14.4 Дополнительная трудность связана с переносимост
+ью между видами.
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 287--297
+\TU/TimesNewRoman(0)/m/n/14.4 Словарь BPE, обученный на геноме человека, плохо 
+обобщается на
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 287--297
+\TU/TimesNewRoman(0)/m/n/14.4 GC-составом и разной долей повторяющихся элементо
+в. Nucleotide
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 287--297
+\TU/TimesNewRoman(0)/m/n/14.4 обучения, однако ограничение фиксированного $\OML
+/cmm/m/it/14.4 k$ \TU/TimesNewRoman(0)/m/n/14.4 сохраняется: граница
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 305--317
+[]\TU/TimesNewRoman(0)/m/n/14.4 Charformer [36] вводит Gradient-Based Subword T
+okenization (GBST) —
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 305--317
+\TU/TimesNewRoman(0)/m/n/14.4 модуль мягкой токенизации, обучаемый совместно с 
+моделью. GBST
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 305--317
+\TU/TimesNewRoman(0)/m/n/14.4 группировки без ограничения непересечения. Funnel
+ Transformer [37]
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 305--317
+\TU/TimesNewRoman(0)/m/n/14.4 идёт другим путём — stride pooling постепенно сок
+ращает длину, но
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 305--317
+\TU/TimesNewRoman(0)/m/n/14.4 коэффициент сжатия одинаков для всех частей входа
+. MegaByte [15]
+ []
+
+
+
+[15]
+Underfull \hbox (badness 1721) in paragraph at lines 318--326
+\TU/TimesNewRoman(0)/m/n/14.4 Границы patch’ей определяются по энтропии предска
+зания следующего
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 318--326
+\TU/TimesNewRoman(0)/m/n/14.4 оказываются эффективнее фиксированных. Данный под
+ход является
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--348
+[]\TU/TimesNewRoman(0)/m/n/14.4 Наиболее близкий по механизму к нашему подходу 
+класс методов
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 343--348
+\TU/TimesNewRoman(0)/m/n/14.4 вычисляет попарные оценки сходства между соседним
+и токенами и
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--358
+[]\TU/TimesNewRoman(0)/m/n/14.4 Отдельную нишу занимают детерминистические подх
+оды на основе
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 349--358
+\TU/TimesNewRoman(0)/m/n/14.4 при построении токенов улучшает прикладное качест
+во, что косвенно
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 349--358
+\TU/TimesNewRoman(0)/m/n/14.4 подтверждает гипотезу о необходимости биологическ
+и мотивированных
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 361--365
+\TU/TimesNewRoman(0)/m/n/14.4 механизм определения границ, наличие биологически
+х приоров, число
+ []
+
+
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 366--372
+[]\TU/TimesNewRoman(0)/m/n/14.4 В рассмотренных работах не встречается комбинац
+ия всех четырёх
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--372
+\TU/TimesNewRoman(0)/m/n/14.4 ограничение непересечения через DP, интеграция би
+оприоров как
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--372
+\TU/TimesNewRoman(0)/m/n/14.4 обучаемого индуктивного смещения и температурный 
+отжиг для
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 366--372
+\TU/TimesNewRoman(0)/m/n/14.4 минимизации разрыва обучение–инференс. Именно эту
+ комбинацию
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+[]\TU/TimesNewRoman(0)/m/n/14.4 Дополнительно в предлагаемой архитектуре вводит
+ся накопительное
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 373--380
+\TU/TimesNewRoman(0)/m/n/14.4 состояние токена при слиянии, что позволяет прини
+мать решение не
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 373--380
+\TU/TimesNewRoman(0)/m/n/14.4 только по текущей паре соседей, но и с учётом ист
+ории предыдущих
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 373--380
+\TU/TimesNewRoman(0)/m/n/14.4 операций слияния. Для оценки практической состоят
+ельности такого
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 373--380
+\TU/TimesNewRoman(0)/m/n/14.4 подхода в экспериментальной части отдельно контро
+лируется качество
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 383--386
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для сравнительной оценки предлагаемого метода н
+еобходим бенчмарк,
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 394--403
+[]\TU/TimesNewRoman(0)/m/n/14.4 Wei и др. [40] провели масштабное сравнение DNA
+ foundation models
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 394--403
+\TU/TimesNewRoman(0)/m/n/14.4 работают на разных задачах. Vishniakov и др. [10]
+ пошли дальше и
+ []
+
+
+
+[17]
+Underfull \hbox (badness 1902) in paragraph at lines 420--427
+[]\TU/TimesNewRoman(0)/m/n/14.4 Использование данного бенчмарка для оценки адап
+тивной токенизации
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 420--427
+\TU/TimesNewRoman(0)/m/n/14.4 ДНК — там, где адаптивная токенизация теоретическ
+и должна давать
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--434
+[]\TU/TimesNewRoman(0)/m/n/14.4 Существующие геномные языковые модели в основно
+м используют
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 435--441
+[]\TU/TimesNewRoman(0)/m/n/14.4 Работы по обучаемой токенизации ДНК (MxDNA, Mer
+geDNA и др.)
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 435--441
+\TU/TimesNewRoman(0)/m/n/14.4 дифференцируемое DP и биологические приоры в един
+ую архитектуру.
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 435--441
+\TU/TimesNewRoman(0)/m/n/14.4 нередко работают лучше фиксированных, однако пере
+нос этих идей в
  []
 
 ) (./chapter2.tex
 
-[14]
+[18]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\TU/TimesNewRoman(0)/m/n/14.4 В этой главе описана архитектура адаптивного то
-кенизатора ДНК-
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 3--4
+Underfull \hbox (badness 3439) in paragraph at lines 3--8
 \TU/TimesNewRoman(0)/m/n/14.4 последовательностей. Метод основан на рекурсивном
  гейтированном
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 3--8
 \TU/TimesNewRoman(0)/m/n/14.4 слиянии с дифференцируемым динамическим программи
 рованием
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\TU/TimesNewRoman(0)/m/n/14.4 и обучается совместно с backbone-моделью на задач
+Underfull \hbox (badness 5504) in paragraph at lines 3--8
+\TU/TimesNewRoman(0)/m/n/14.4 и обучается совместно с основной моделью на задач
 е предсказания
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-[]\TU/TimesNewRoman(0)/m/n/14.4 кодирование результата backbone-моделью на укор
-оченной
+Underfull \hbox (badness 10000) in paragraph at lines 11--22
+[]\TU/TimesNewRoman(0)/m/n/14.4 Метод включает последовательную обработку исход
+ной цепочки
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-[]\TU/TimesNewRoman(0)/m/n/14.4 От фиксированного patching (MegaByte [21], Patc
-hDNA [18]) метод
+Underfull \hbox (badness 3989) in paragraph at lines 11--22
+\TU/TimesNewRoman(0)/m/n/14.4 токены, что переносит основную вычислительную наг
+рузку на более
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\TU/TimesNewRoman(0)/m/n/14.4 (GBST в Charformer [22]) — рекурсивной схемой с о
-граничением
+Underfull \hbox (badness 3989) in paragraph at lines 11--22
+\TU/TimesNewRoman(0)/m/n/14.4 короткую последовательность. Выбор пар для слияни
+я выполняется
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 17--18
-\TU/TimesNewRoman(0)/m/n/14.4 непересечения через дифференцируемое DP. От entro
-py-based patching
+Underfull \hbox (badness 10000) in paragraph at lines 11--22
+\TU/TimesNewRoman(0)/m/n/14.4 схема содержит четыре последовательных этапа: ини
+циализация
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 30--31
+Underfull \hbox (badness 2662) in paragraph at lines 11--22
+\TU/TimesNewRoman(0)/m/n/14.4 представлений на уровне нуклеотидов; рекурсивное 
+слияние соседних
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 11--22
+\TU/TimesNewRoman(0)/m/n/14.4 элементов с гейтированной оценкой; кодирование ре
+зультата основной
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 23--31
+\TU/TimesNewRoman(0)/m/n/14.4 метод отличается адаптивными границами. От одноур
+овневой мягкой
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--31
+\TU/TimesNewRoman(0)/m/n/14.4 токенизации (GBST в Charformer [36]) — рекурсивно
+й схемой с
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 42--46
 []\TU/TimesNewRoman(0)/m/n/14.4 Словарь включает канонические нуклеотиды, симво
 л $\OML/cmm/m/it/14.4 N$ \TU/TimesNewRoman(0)/m/n/14.4 и специальные
  []
 
 
 
-[15
+[19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-[]\TU/TimesNewRoman(0)/m/n/14.4 Инициализацию embedding matrix можно сделать би
-ологически
+Underfull \hbox (badness 3333) in paragraph at lines 51--61
+\TU/TimesNewRoman(0)/m/n/14.4 токенов), поэтому основная выразительная способно
+сть представления
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 38--39
-\TU/TimesNewRoman(0)/m/n/14.4 мотивированной: пурины $\OT1/cmr/m/n/14.4 (\OML/c
-mm/m/it/14.4 A; G\OT1/cmr/m/n/14.4 )$ \TU/TimesNewRoman(0)/m/n/14.4 и пиримидин
-ы $\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 T; C\OT1/cmr/m/n/14.4 )$ \TU/TimesNewR
-oman(0)/m/n/14.4 образуют две
- []
-
-
-Underfull \hbox (badness 7759) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 64--71
 []\TU/TimesNewRoman(0)/m/n/14.4 Используется Rotary Positional Embedding (RoPE)
- [43] — скалярное
+ [41]: скалярное
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 64--71
 \TU/TimesNewRoman(0)/m/n/14.4 произведение двух закодированных позиций зависит 
 только от
  []
 
 
-Underfull \hbox (badness 3780) in paragraph at lines 42--43
-\TU/TimesNewRoman(0)/m/n/14.4 относительного расстояния. Это полезно для рекурс
-ивного слияния,
+Underfull \hbox (badness 3536) in paragraph at lines 64--71
+\TU/TimesNewRoman(0)/m/n/14.4 относительного расстояния. Для рекурсивного слиян
+ия это свойство
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 56--57
-[]\TU/TimesNewRoman(0)/m/n/14.4 ДНК — двуцепочечная молекула, и многие функцион
-альные элементы
+Underfull \hbox (badness 1817) in paragraph at lines 64--71
+\TU/TimesNewRoman(0)/m/n/14.4 существенно, поскольку абсолютные позиции постепе
+нно теряют роль,
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 63--64
-[]\TU/TimesNewRoman(0)/m/n/14.4 На каждом уровне рекурсии $\OML/cmm/m/it/14.4 l
-$ \TU/TimesNewRoman(0)/m/n/14.4 для каждой соседней пары $\OT1/cmr/m/n/14.4 (\O
-ML/cmm/m/it/14.4 x[]; x[]\OT1/cmr/m/n/14.4 )$
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+\TU/TimesNewRoman(0)/m/n/14.4 Для расширения контекста перед конвейером слияний
+ применяется
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 88--94
+[]\TU/TimesNewRoman(0)/m/n/14.4 ДНК является двуцепочечной молекулой, и многие 
+функциональные
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 88--94
+\TU/TimesNewRoman(0)/m/n/14.4 элементы работают на обеих цепях. В связи с этим 
+используются
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
+\TU/TimesNewRoman(0)/m/n/14.4 две стратегии: аугментация данных (с вероятностью
+ $\OT1/cmr/m/n/14.4 0[]5$ \TU/TimesNewRoman(0)/m/n/14.4 заменяем
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
+\TU/TimesNewRoman(0)/m/n/14.4 последовательность на обратный комплемент) и опци
+ональный
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 88--94
+\TU/TimesNewRoman(0)/m/n/14.4 регуляризатор $\OMS/cmsy/m/n/14.4 L[]$\TU/TimesNe
+wRoman(0)/m/n/14.4 , штрафующий расхождение оценок слияния между
  []
 
 
 
-[16]
-
-[17]
-Underfull \hbox (badness 1748) in paragraph at lines 142--144
-\TU/TimesNewRoman(0)/m/n/14.4 и $\OML/cmm/m/it/14.4 k$ \TU/TimesNewRoman(0)/m/n
-/14.4 выбранных парах. Мягкие merge-веса $\OML/cmm/m/it/14.4 ^^K[] \OMS/cmsy/m/
-n/14.4 2 \OT1/cmr/m/n/14.4 [0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 1]$ \TU/Tim
-esNewRoman(0)/m/n/14.4 извлекаются
+[20]
+Underfull \hbox (badness 1057) in paragraph at lines 99--102
+\TU/TimesNewRoman(0)/m/n/14.4 слияния складывается из компоненты сходства и кон
+текстно-зависимого
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 142--144
+Underfull \hbox (badness 1596) in paragraph at lines 103--105
+[]\TU/TimesNewRoman(0)/m/n/14.4 Компонента сходства вычисляется через scaled do
+t-product с обучаемой
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 109--120
+\TU/TimesNewRoman(0)/m/n/14.4 выполняет роль обучаемого метрического тензора дл
+я задачи слияния:
+ []
+
+
+
+[21]
+Underfull \hbox (badness 6110) in paragraph at lines 155--165
+[]\TU/TimesNewRoman(0)/m/n/14.4 Выбор phastCons и JASPAR обусловлен тем, что он
+и дают разные
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 155--165
+\TU/TimesNewRoman(0)/m/n/14.4 участок часто переходит в межгенную область или з
+аканчивается один
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 155--165
+\TU/TimesNewRoman(0)/m/n/14.4 tor binding profiles) содержит позиционные весовы
+е матрицы для более
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 173--176
+\TU/TimesNewRoman(0)/m/n/14.4 и конца мотива, число мотивов, перекрывающих пози
+цию, и качество
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 197--201
+\TU/TimesNewRoman(0)/m/n/14.4 причём выбранные пары не должны пересекаться — ин
+аче один токен
+ []
+
+
+
+[22]
+Underfull \hbox (badness 1173) in paragraph at lines 231--238
 \TU/TimesNewRoman(0)/m/n/14.4 как производная $\OML/cmm/m/it/14.4 @D\OT1/cmr/m/
 n/14.4 [\OML/cmm/m/it/14.4 N; K\OT1/cmr/m/n/14.4 ]/\OML/cmm/m/it/14.4 @s[]$\TU/
 TimesNewRoman(0)/m/n/14.4 , что интерпретируется как маргинальная
  []
 
 
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 239--243
 []\TU/TimesNewRoman(0)/m/n/14.4 В качестве альтернативы рассматривается Straigh
 t-Through Estimator
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 149--150
-[]\TU/TimesNewRoman(0)/m/n/14.4 Для каждой выбранной пары объединённое представ
-ление вычисляется
+
+[23]
+Underfull \hbox (badness 1292) in paragraph at lines 273--281
+\TU/TimesNewRoman(0)/m/n/14.4 где для выбранных пар добавляются $\OT1/cmr/m/n/1
+4.4 ([]\OML/cmm/m/it/14.4 ; []\OT1/cmr/m/n/14.4 )$\TU/TimesNewRoman(0)/m/n/14.4
+ , а для невыбранных
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-[]\TU/TimesNewRoman(0)/m/n/14.4 Мягкий selection при обучении и жёсткий при инф
-еренсе создают
+Underfull \hbox (badness 2057) in paragraph at lines 292--297
+[]\TU/TimesNewRoman(0)/m/n/14.4 Для каждого токена формируется вектор из шести 
+признаков: начало
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 169--170
-\TU/TimesNewRoman(0)/m/n/14.4 расхождение. Для мониторинга отслеживается доля «
-неуверенных»
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 169--170
-\TU/TimesNewRoman(0)/m/n/14.4 разность val loss между режимами. Если разность п
-ревышает $\OT1/cmr/m/n/14.4 0[]05$ \TU/TimesNewRoman(0)/m/n/14.4 —
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-[]\TU/TimesNewRoman(0)/m/n/14.4 После слияния каждый токен $\OML/cmm/m/it/14.4 
-j$ \TU/TimesNewRoman(0)/m/n/14.4 покрывает непрерывный диапазон
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 176--177
-\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 a[]; b[]\OT1/cmr/m/n/14.4 ]$ \TU/TimesNew
-Roman(0)/m/n/14.4 в исходной последовательности. RoPE частично размывается
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 176--177
-\TU/TimesNewRoman(0)/m/n/14.4 после нелинейных MLP, поэтому перед backbone повт
-орно внедряется
+Underfull \hbox (badness 1694) in paragraph at lines 292--297
+\TU/TimesNewRoman(0)/m/n/14.4 спана $\OML/cmm/m/it/14.4 a[]$\TU/TimesNewRoman(0
+)/m/n/14.4 , конец $\OML/cmm/m/it/14.4 b[]$\TU/TimesNewRoman(0)/m/n/14.4 , длин
+а $\OML/cmm/m/it/14.4 `[]$\TU/TimesNewRoman(0)/m/n/14.4 , центр $\OML/cmm/m/it/
+14.4 m[]$\TU/TimesNewRoman(0)/m/n/14.4 , нормированные $\OML/cmm/m/it/14.4 a[]\
+OT1/cmr/m/n/14.4 /\OML/cmm/m/it/14.4 L$ \TU/TimesNewRoman(0)/m/n/14.4 и $\OML/c
+mm/m/it/14.4 `[]\OT1/cmr/m/n/14.4 /\OML/cmm/m/it/14.4 L$\TU/TimesNewRoman(0)/m/
+n/14.4 .
  []
 
 
 
-[19]
-Underfull \hbox (badness 4660) in paragraph at lines 182--183
+[24]
+Underfull \hbox (badness 4660) in paragraph at lines 300--305
 []\TU/TimesNewRoman(0)/m/n/14.4 Укороченная последовательность ($\OML/cmm/m/it/
 14.4 N \OMS/cmsy/m/n/14.4 ^^\ \OML/cmm/m/it/14.4 L$ \TU/TimesNewRoman(0)/m/n/14
 .4 токенов) обрабатывается
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 187--188
-[]\TU/TimesNewRoman(0)/m/n/14.4 Целевая функция определена на уровне нуклеотидо
-в, поэтому нужно
+Underfull \hbox (badness 10000) in paragraph at lines 320--328
+\TU/TimesNewRoman(0)/m/n/14.4 где для $\OML/cmm/m/it/14.4 t \OT1/cmr/m/n/14.4 =
+ 1$ \TU/TimesNewRoman(0)/m/n/14.4 используется токен $\OT1/cmr/m/n/14.4 [\OML/c
+mm/m/it/14.4 BOS\OT1/cmr/m/n/14.4 ]$\TU/TimesNewRoman(0)/m/n/14.4 . Проекция $\
+OML/cmm/m/it/14.4 W[]$ \TU/TimesNewRoman(0)/m/n/14.4 в
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-\TU/TimesNewRoman(0)/m/n/14.4 intra-span causal decoder, где нуклеотиды внутри 
-каждого спана
+Underfull \hbox (badness 10000) in paragraph at lines 320--328
+\TU/TimesNewRoman(0)/m/n/14.4 базовой конфигурации отключена (тождественное пре
+образование) и
  []
 
 
-
-[20]
-Underfull \hbox (badness 1184) in paragraph at lines 222--223
-[]\TU/TimesNewRoman(0)/m/n/14.4 Entropy regularization поощряет exploration реш
-ений на ранних стадиях.
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 224--225
-[]\TU/TimesNewRoman(0)/m/n/14.4 RC-consistency regularization штрафует расхожде
-ние merge-скоров между
+Underfull \hbox (badness 2735) in paragraph at lines 320--328
+\TU/TimesNewRoman(0)/m/n/14.4 информации нуклеотидного уровня, которая могла бы
+ть потеряна при
  []
 
 
 
-[21]
-Underfull \hbox (badness 3168) in paragraph at lines 252--253
-[]\TU/TimesNewRoman(0)/m/n/14.4 Phase 1 (backbone warmup, steps 0–5000): merge 
-pipeline заморожен,
+[25]
+Underfull \hbox (badness 5431) in paragraph at lines 345--349
+\TU/TimesNewRoman(0)/m/n/14.4 слой + softmax. Для длинных последовательностей (
+$\OML/cmm/m/it/14.4 L > \OT1/cmr/m/n/14.4 4096$\TU/TimesNewRoman(0)/m/n/14.4 )
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 254--255
-[]\TU/TimesNewRoman(0)/m/n/14.4 Phase 2 (joint training, steps 5000–90000): mer
-ge pipeline разморожен.
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+[]\TU/TimesNewRoman(0)/m/n/14.4 К основной функции потерь добавляются четыре вс
+помогательных
  []
 
 
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-[]\TU/TimesNewRoman(0)/m/n/14.4 Предложена архитектура адаптивного токенизатора
-, отличающаяся
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-\TU/TimesNewRoman(0)/m/n/14.4 от существующих работ комбинацией рекурсивного сл
-ияния,
- []
-
-
-Underfull \hbox (badness 2057) in paragraph at lines 293--294
-\TU/TimesNewRoman(0)/m/n/14.4 дифференцируемого DP через log-semiring и интегра
-ции биоприоров в
- []
-
-) (./conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 295--1
-[]\TU/TimesNewRoman(0)/m/n/14.4 Описаны составная функция потерь с четырьмя рег
-уляризаторами,
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 295--1
-\TU/TimesNewRoman(0)/m/n/14.4 трёхфазная стратегия обучения и план эксперименто
-в на DART-Eval с
+Underfull \hbox (badness 5954) in paragraph at lines 370--372
+[]\TU/TimesNewRoman(0)/m/n/14.4 Регуляризатор сжатия штрафует отклонение коэффи
+циента сжатия от
  []
 
 
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[]\TU/TimesNewRoman(0)/m/n/14.4 разработанная методика оправдана с точки зрения
- теоретических
+[26]
+Underfull \hbox (badness 1924) in paragraph at lines 398--401
+[]\TU/TimesNewRoman(0)/m/n/14.4 Регуляризатор разнообразия спанов штрафует низк
+ую дисперсию длин.
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 398--401
+\TU/TimesNewRoman(0)/m/n/14.4 Если все спаны одной длины — токенизация фактичес
+ки становится
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 432--436
+[]\TU/TimesNewRoman(0)/m/n/14.4 Прямое совместное обучение основной модели и ко
+нвейера слияний с
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 437--441
+[]\TU/TimesNewRoman(0)/m/n/14.4 Фаза 1 (прогрев основной модели, шаги 0–5000): 
+конвейер слияний
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--441
+\TU/TimesNewRoman(0)/m/n/14.4 заморожен, слияния отключены. Основная модель обу
+чается как
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 437--441
+\TU/TimesNewRoman(0)/m/n/14.4 посимвольная модель и получает осмысленные вложен
+ия до активации
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 442--445
+[]\TU/TimesNewRoman(0)/m/n/14.4 Фаза 2 (совместное обучение, шаги 5000–90000): 
+конвейер слияний
+ []
+
+
+
+[27]
+Underfull \hbox (badness 2662) in paragraph at lines 446--449
+\TU/TimesNewRoman(0)/m/n/14.4 дискретных решений. Скорость обучения находится в
+ нижней части
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 452--462
+[]\TU/TimesNewRoman(0)/m/n/14.4 Референсный геном CHM13 [21]; chr8 — тест, chr9
+ — валидация, по
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 452--462
+\TU/TimesNewRoman(0)/m/n/14.4 фрагменты длины $\OML/cmm/m/it/14.4 L$\TU/TimesNe
+wRoman(0)/m/n/14.4 ; регионы с $\OML/cmm/m/it/14.4 > \OT1/cmr/m/n/14.4 50[]$ \T
+U/TimesNewRoman(0)/m/n/14.4 символов $\OML/cmm/m/it/14.4 N$ \TU/TimesNewRoman(0
+)/m/n/14.4 пропускаются.
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 452--462
+\TU/TimesNewRoman(0)/m/n/14.4 Аугментация обратным комплементом — с вероятность
+ю $\OT1/cmr/m/n/14.4 0[]5$\TU/TimesNewRoman(0)/m/n/14.4 . Оценки
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 467--471
+\TU/TimesNewRoman(0)/m/n/14.4 Все обучаются на тех же данных с сопоставимым чис
+лом параметров
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 474--479
+\TU/TimesNewRoman(0)/m/n/14.4 слияния, накопительное состояние $\OML/cmm/m/it/1
+4.4 a[]$\TU/TimesNewRoman(0)/m/n/14.4 , dDP (замена на STE), проекция
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--488
+[]\TU/TimesNewRoman(0)/m/n/14.4 Предобучение: перплексия NTP (мягкий/жёсткий ре
+жимы), бит на
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 493--505
+[]\TU/TimesNewRoman(0)/m/n/14.4 Прикладные задачи: DART-Eval [16] (без дообучен
+ия, зондирование,
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 493--505
+\TU/TimesNewRoman(0)/m/n/14.4 линейный классификатор, 10 эпох, скорость обучени
+я $\OT1/cmr/m/n/14.4 10[]$\TU/TimesNewRoman(0)/m/n/14.4 . Конвейер
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 493--505
+\TU/TimesNewRoman(0)/m/n/14.4 слияний при дообучении не перенастраивается. Допо
+лнительно: vari-
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 493--505
+\TU/TimesNewRoman(0)/m/n/14.4 ant effect prediction (ClinVar [45], база клиниче
+ски интерпретированных
+ []
+
+
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 508--515
+\TU/TimesNewRoman(0)/m/n/14.4 цис-регуляторные элементы), оценка биологической 
+согласованности
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 508--515
+\TU/TimesNewRoman(0)/m/n/14.4 (совпадение с экзон-интронными границами и границ
+ами мотивов TF),
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 508--515
+\TU/TimesNewRoman(0)/m/n/14.4 корреляция длины спана с оценкой консервативности
+, визуализация в
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 524--528
+[]\TU/TimesNewRoman(0)/m/n/14.4 Суммарно около 19,5M параметров (основная модел
+ь $[]\OT1/cmr/m/n/14.4 15$\TU/TimesNewRoman(0)/m/n/14.4 M, конвейер
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 524--528
+\TU/TimesNewRoman(0)/m/n/14.4 слияний $[]\OT1/cmr/m/n/14.4 3$\TU/TimesNewRoman(
+0)/m/n/14.4 M, декодер $[]\OT1/cmr/m/n/14.4 1[]5$\TU/TimesNewRoman(0)/m/n/14.4 
+M). При этом самый дорогой компонент
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 531--536
+[]\TU/TimesNewRoman(0)/m/n/14.4 Log-semiring relaxation — не единственный спосо
+б дифференцировать
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--536
+\TU/TimesNewRoman(0)/m/n/14.4 пар он предпочтительнее REINFORCE-оценок: градиен
+т получается
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 537--543
+[]\TU/TimesNewRoman(0)/m/n/14.4 Каузальный декодер с перекрёстным вниманием и м
+аской $\OML/cmm/m/it/14.4 b[] < t$
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 537--543
+\TU/TimesNewRoman(0)/m/n/14.4 с точки зрения соотношения прироста точности и до
+полнительного
+ []
+
+
+
+[29]) (./conclusion.tex
+Underfull \hbox (badness 1960) in paragraph at lines 544--1
+[]\TU/TimesNewRoman(0)/m/n/14.4 Составная функция потерь с четырьмя регуляризат
+орами и трёхфазная
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--1
+\TU/TimesNewRoman(0)/m/n/14.4 стратегия обучения представляют собой практически
+е решения,
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 544--1
+\TU/TimesNewRoman(0)/m/n/14.4 направленные на стабилизацию совместного обучения
+ токенизатора и
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 544--1
+\TU/TimesNewRoman(0)/m/n/14.4 основной модели. При этом не исключено, что часть
+ регуляризаторов
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 544--1
+\TU/TimesNewRoman(0)/m/n/14.4 является избыточной для данной архитектуры, что с
+оставляет один из
+ []
+
+
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+[]\TU/TimesNewRoman(0)/m/n/14.4 Токенизация в геномных языковых моделях традици
+онно является
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+\TU/TimesNewRoman(0)/m/n/14.4 фиксированным этапом, который определяется до нач
+ала обучения
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 4--14
+\TU/TimesNewRoman(0)/m/n/14.4 и не пересматривается в его процессе. Данный подх
+од ограничивает
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--32
+\TU/TimesNewRoman(0)/m/n/14.4 обучается совместно с языковой моделью. Ядро — ре
+курсивное
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--32
+\TU/TimesNewRoman(0)/m/n/14.4 гейтированное слияние с дифференцируемым динамиче
+ским
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--32
+\TU/TimesNewRoman(0)/m/n/14.4 программированием через log-semiring relaxation: 
+границы токенов
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--32
+\TU/TimesNewRoman(0)/m/n/14.4 оптимизируются непрерывно, без REINFORCE и связан
+ной с ним
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 15--32
+\TU/TimesNewRoman(0)/m/n/14.4 экономия достигается в основной модели ($\OML/cmm
+/m/it/14.4 N \OMS/cmsy/m/n/14.4 ^^\ \OML/cmm/m/it/14.4 L$\TU/TimesNewRoman(0)/m
+/n/14.4 ), а обучающий
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 15--32
+\TU/TimesNewRoman(0)/m/n/14.4 сигнал формируется посимвольно. Полная система — 
+около 19,5M
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 15--32
+\TU/TimesNewRoman(0)/m/n/14.4 параметров (основная модель $[]\OT1/cmr/m/n/14.4 
+15$\TU/TimesNewRoman(0)/m/n/14.4 M, конвейер слияний $[]\OT1/cmr/m/n/14.4 3$\TU
+/TimesNewRoman(0)/m/n/14.4 M, декодер
  []
 
 )
+Underfull \hbox (badness 1721) in paragraph at lines 33--41
+\TU/TimesNewRoman(0)/m/n/14.4 референсных сборках, анализ распределения длин сп
+анов в различных
+ []
 
-[24
+
+
+[31
 
 ]
 
-[25
+[32
 
 ]
-Underfull \hbox (badness 5288) in paragraph at lines 45--45
+Underfull \hbox (badness 5288) in paragraph at lines 49--49
 \TU/TimesNewRoman(0)/m/n/14.4 formers / L. Yu [et al.]. — 2023. — arXiv: $[][][
 ][] [] [][][][][]$. —
  []
 
 
 
-[26]
+[33]
 
-[27]
+[34]
 
-[28]
+[35]
 
-[29] (./appA.tex
+[36] (./appA.tex
 
-[30]
+[37]
 ПРИЛОЖЕНИЕ А.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 []\TU/TimesNewRoman(0)/b/n/14.4 1 НАЗВАНИЕ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 \TU/TimesNewRoman(0)/b/n/14.4 1.1 Название
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 \TU/TimesNewRoman(0)/m/n/14.4 1.1.1 Название
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 \TU/TimesNewRoman(0)/m/n/14.4 1.1.2 Название
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
 \TU/TimesNewRoman(0)/b/n/14.4 1.1 Название
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
 \TU/TimesNewRoman(0)/m/n/14.4 1.1.1 Название
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
 \TU/TimesNewRoman(0)/m/n/14.4 1.1.2 Название
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 \TU/TimesNewRoman(0)/m/n/14.4 1.1 Название
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 \TU/TimesNewRoman(0)/m/n/14.4 1.1.1 Название
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 \TU/TimesNewRoman(0)/m/n/14.4 1.1.2 Название
  []
 
@@ -1712,7 +2314,7 @@ File: example.jpg Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (19.53648pt too wide) in paragraph at lines 68--68
+Overfull \hbox (19.53648pt too wide) in paragraph at lines 70--70
  [][] 
  []
 
@@ -1720,7 +2322,7 @@ Overfull \hbox (19.53648pt too wide) in paragraph at lines 68--68
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (19.53648pt too wide) in paragraph at lines 68--68
+Overfull \hbox (19.53648pt too wide) in paragraph at lines 70--70
  [][] 
  []
 
@@ -1729,37 +2331,37 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[31
+[38
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 []\TU/TimesNewRoman(0)/m/n/14.4 Информационно-сервисная служба для обслуживания
  удалённых
  []
 
 
 
-[32])
-Underfull \hbox (badness 10000) in paragraph at lines 121--52
+[39])
+Underfull \hbox (badness 10000) in paragraph at lines 126--56
 []\TU/TimesNewRoman(0)/b/n/14.4 Инструкция: \TU/TimesNewRoman(0)/m/n/14.4 Прило
 жение содержит дополнительные материалы,
  []
 
 
-Underfull \hbox (badness 6332) in paragraph at lines 121--52
+Underfull \hbox (badness 6332) in paragraph at lines 126--56
 \TU/TimesNewRoman(0)/m/n/14.4 не вошедшие в основной текст работы. В него можно
  включать
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 121--52
+Underfull \hbox (badness 2080) in paragraph at lines 126--56
 \TU/TimesNewRoman(0)/m/n/14.4 изображения, таблицы, программный код, результаты
  экспериментов и
  []
 
 
 
-[33] (./main.aux)
+[40] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1769,12 +2371,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17659 strings out of 473832
- 381731 string characters out of 5729481
- 1403386 words of memory out of 5000000
- 40504 multiletter control sequences out of 15000+600000
- 561620 words of font info for 70 fonts, out of 8000000 for 9000
+ 17684 strings out of 473832
+ 382704 string characters out of 5729481
+ 1405275 words of memory out of 5000000
+ 40523 multiletter control sequences out of 15000+600000
+ 561644 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,12n,96p,1170b,5141s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,96p,693b,5141s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (33 pages, 554484 bytes).
+Output written on main.xdv (41 pages, 724852 bytes).

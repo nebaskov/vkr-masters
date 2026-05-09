@@ -25,6 +25,29 @@
   doi     = {10.1016/j.csbj.2025.07.038}
 }
 
+% ---- Обзорные работы по биоинформатике и LLM ----
+
+@article{ruanLargeLanguageModels2025,
+  title   = {Large language models for bioinformatics},
+  author  = {Ruan, Wenqi and Lyu, Yunfei and Zhang, Jing and Cai, Jianghong and others},
+  year    = 2025,
+  journal = {Quantitative Biology},
+  volume  = {14},
+  number  = {1},
+  doi     = {10.1002/qub2.70014}
+}
+
+@article{chenFoundationModelsBioinformatics2024,
+  title   = {Foundation models for bioinformatics},
+  author  = {Chen, Zhuowan and Wei, Lei and Gao, Ge},
+  year    = 2024,
+  journal = {Quantitative Biology},
+  volume  = {12},
+  number  = {4},
+  pages   = {339--344},
+  doi     = {10.1002/qub2.69}
+}
+
 % ---- Архитектура Transformer и attention ----
 
 @inproceedings{vaswaniAttentionAllYou2017,
@@ -33,7 +56,8 @@
   author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
   year      = 2017,
   volume    = {30},
-  publisher = {Curran Associates, Inc.}
+  publisher = {Curran Associates, Inc.},
+  
 }
 
 % ---- Genomic Language Models ----
@@ -57,12 +81,15 @@
   note    = {arXiv:2306.15006}
 }
 
-@article{nguenHyenaDNALongRangeGenomic2024,
-  title   = {{{HyenaDNA}}: {{Long-Range Genomic Sequence Modeling}} at {{Single Nucleotide Resolution}}},
-  author  = {Nguyen, Eric and Poli, Michael and Faizi, Marjan and Thomas, Armin W. and Birber, Callum and Wornow, Michael and Gu, Albert and Ermon, Stefano and R{\'e}, Christopher and Baccus, Stephen A.},
-  year    = 2024,
-  journal = {Advances in Neural Information Processing Systems},
-  volume  = {36}
+@inproceedings{nguenHyenaDNALongRangeGenomic2024,
+  title     = {{{HyenaDNA}}: {{Long-Range Genomic Sequence Modeling}} at {{Single Nucleotide Resolution}}},
+  author    = {Nguyen, Eric and Poli, Michael and Faizi, Marjan and Thomas, Armin W. and Birber, Callum and Wornow, Michael and Gu, Albert and Ermon, Stefano and R{\'e}, Christopher and Baccus, Stephen A.},
+  booktitle = {Advances in Neural Information Processing Systems 36 (NeurIPS 2023)},
+  year      = 2024,
+  volume    = {36},
+  eprint    = {2306.15794},
+  archiveprefix = {arXiv},
+  doi       = {10.48550/arXiv.2306.15794}
 }
 
 @misc{schiffCaduceusBiDirectionalEquivariant2024,
@@ -99,12 +126,12 @@
   doi     = {10.1126/science.ado9336}
 }
 
-@article{nguyenEvo2GenomeModeling2026,
-  title   = {Genome Modelling and Design across All Domains of Life with {{Evo}} 2},
-  author  = {Nguyen, Eric and Poli, Michael and others},
-  year    = 2026,
-  journal = {Nature},
-  doi     = {10.1038/s41586-026-10176-5}
+@misc{nguyenEvo2GenomeModeling2026,
+  title         = {Genome Modelling and Design across All Domains of Life with {{Evo}} 2},
+  author        = {Nguyen, Eric and Poli, Michael and others},
+  year          = 2025,
+  eprint        = {2501.09718},
+  archivePrefix = {arXiv}
 }
 
 @article{groverLearnsSequenceContext2024,
@@ -270,13 +297,15 @@
 
 % ---- Бенчмарки геномных моделей ----
 
-@misc{patel2025dartevalcomprehensivednalanguage,
-  title   = {{{DART-eval}}: A Comprehensive {{DNA}} Language Model Evaluation Benchmark on Regulatory {{DNA}}},
-  author  = {Patel, Aman and Singhal, Arpita and Wang, Austin and Pampari, Anusri and Kasowski, Maya and Kundaje, Anshul},
-  year    = 2025,
-  eprint  = {2412.05430},
+@inproceedings{patel2025dartevalcomprehensivednalanguage,
+  title     = {{{DART-Eval}}: A Comprehensive {{DNA}} Language Model Evaluation Benchmark on Regulatory {{DNA}}},
+  author    = {Patel, Aman and Singhal, Arpita and Wang, Austin and Pampari, Anusri and Kasowski, Maya and Kundaje, Anshul},
+  booktitle = {Advances in Neural Information Processing Systems 38 (NeurIPS 2024) Datasets \& Benchmarks Track},
+  year      = 2024,
+  eprint    = {2412.05430},
   primaryclass = {cs.LG},
-  archiveprefix = {arXiv}
+  archiveprefix = {arXiv},
+  doi       = {10.48550/arXiv.2412.05430}
 }
 
 @article{tangBENDBenchmarkDNA2024,
@@ -309,11 +338,12 @@
 }
 
 @misc{vishniakovGenomicFoundationlessModels2024,
-  title   = {Genomic {{Foundationless Models}}: {{Pretraining Does Not Promise Performance}}},
-  author  = {Vishniakov, Kirill and Viswanathan, Karthik and Medvedev, Aleksandr and others},
-  year    = 2024,
-  publisher = {Genomics},
-  doi     = {10.1101/2024.12.18.628606}
+  title         = {Genomic {{Foundationless Models}}: {{Pretraining Does Not Promise Performance}}},
+  author        = {Vishniakov, Kirill and Viswanathan, Karthik and Medvedev, Aleksandr and others},
+  year          = 2024,
+  eprint        = {2024.12.18.628606},
+  archivePrefix = {bioRxiv},
+  doi           = {10.1101/2024.12.18.628606}
 }
 
 % ---- Биология: регуляция генов, эволюция, геном ----
@@ -423,11 +453,13 @@
 
 @article{Zaharia_Accelerating_the_Machine_2018,
   title   = {Accelerating the Machine Learning Lifecycle with {{MLflow}}},
-  author  = {Zaharia, Matei A. and Chen, Andrew and others},
+  author  = {Zaharia, Matei and Chen, Andrew and Davidson, Aaron and Ghodsi, Ali and Hong, Sue Ann and Konwinski, Andy and Murching, Siddharth and Nykodym, Tomas and Ogilvie, Paul and Parkhe, Mani and Xie, Fen and Zumar, Corey},
   year    = 2018,
   journal = {IEEE Data Eng. Bull.},
   volume  = {41},
-  pages   = {39--45}
+  number  = {4},
+  pages   = {39--45},
+  url     = {http://sites.computer.org/debull/A18dec/p39.pdf}
 }
 
 % ---- Методы и архитектурные компоненты ----
@@ -581,8 +613,92 @@
 
 % ---- Белковые языковые модели (контекст) ----
 
-@misc{EvolutionaryscalePredictionAtomiclevel,
-  title        = {Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model},
-  howpublished = {Science, 2023},
-  doi          = {10.1126/science.ade2574}
+@article{linEvolutionaryscalePredictionAtomic2023,
+  title   = {Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model},
+  author  = {Lin, Zeming and Akin, Halil and Rao, Roshan and Hie, Brian and Zhu, Zhongkai and Lu, Wenting and Smetanin, Nikita and Verkuil, Robert and Kabeli, Ori and Shmueli, Yaniv and {dos Santos Costa}, Allan and {Fazel-Zarandi}, Maryam and Sercu, Tom and Candido, Salvatore and Rives, Alexander},
+  year    = 2023,
+  journal = {Science},
+  volume  = {379},
+  number  = {6637},
+  pages   = {1123--1130},
+  doi     = {10.1126/science.ade2574}
+}
+
+% ---- Дополнительные источники для главы 1 (общий контекст) ----
+
+@article{watsonCrickMolecularStructure1953,
+  title   = {Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid},
+  author  = {Watson, James D. and Crick, Francis H. C.},
+  year    = 1953,
+  journal = {Nature},
+  volume  = {171},
+  number  = {4356},
+  pages   = {737--738},
+  doi     = {10.1038/171737a0}
+}
+
+@inproceedings{devlinBERTPretrainingDeep2019,
+  title     = {{{BERT}}: {{Pre-training}} of {{Deep Bidirectional Transformers}} for {{Language Understanding}}},
+  author    = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  booktitle = {Proceedings of NAACL-HLT},
+  year      = 2019,
+  pages     = {4171--4186},
+  doi       = {10.18653/v1/N19-1423}
+}
+
+@article{kaplanScalingLawsNeural2020,
+  title   = {Scaling Laws for Neural Language Models},
+  author  = {Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B. and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec and Wu, Jeffrey and Amodei, Dario},
+  year    = 2020,
+  journal = {arXiv preprint arXiv:2001.08361},
+  doi     = {10.48550/arXiv.2001.08361}
+}
+
+@article{hoffmannTrainingComputeOptimal2022,
+  title   = {Training Compute-Optimal Large Language Models},
+  author  = {Hoffmann, Jordan and Borgeaud, Sebastian and Mensch, Arthur and others},
+  year    = 2022,
+  journal = {arXiv preprint arXiv:2203.15556},
+  doi     = {10.48550/arXiv.2203.15556}
+}
+
+@article{avsecEffectiveGeneExpression2021,
+  title   = {Effective Gene Expression Prediction from Sequence by Integrating Long-Range Interactions},
+  author  = {Avsec, {\v Z}iga and Agarwal, Vikram and Visentin, Daniel and Ledsam, Joseph R. and Grabska-Barwinska, Agnieszka and Taylor, Kyle R. and Assael, Yannis and Jumper, John and Kohli, Pushmeet and Kelley, David R.},
+  year    = 2021,
+  journal = {Nature Methods},
+  volume  = {18},
+  number  = {10},
+  pages   = {1196--1203},
+  doi     = {10.1038/s41592-021-01252-x}
+}
+
+@article{jumperHighlyAccurateProtein2021,
+  title   = {Highly Accurate Protein Structure Prediction with {{AlphaFold}}},
+  author  = {Jumper, John and Evans, Richard and Pritzel, Alexander and others},
+  year    = 2021,
+  journal = {Nature},
+  volume  = {596},
+  number  = {7873},
+  pages   = {583--589},
+  doi     = {10.1038/s41586-021-03819-3}
+}
+
+@article{karczewskiMutationalConstraintSpectrum2020,
+  title   = {The Mutational Constraint Spectrum Quantified from Variation in 141{,}456 Humans},
+  author  = {Karczewski, Konrad J. and Francioli, Laurent C. and Tiao, Grace and others},
+  year    = 2020,
+  journal = {Nature},
+  volume  = {581},
+  number  = {7809},
+  pages   = {434--443},
+  doi     = {10.1038/s41586-020-2308-7}
+}
+
+@misc{yadanHydraConfigFramework2019,
+  title        = {Hydra: A Framework for Elegantly Configuring Complex Applications},
+  author       = {Yadan, Omry},
+  year         = 2019,
+  howpublished = {GitHub},
+  url          = {https://github.com/facebookresearch/hydra}
 }
