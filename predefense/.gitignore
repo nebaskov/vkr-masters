@@ -1,0 +1,14 @@
+# LaTeX build artifacts. The PDF (`predefense.pdf`) is gitignored too —
+# generate locally via `make predefense` from the parent directory.
+predefense.pdf
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
